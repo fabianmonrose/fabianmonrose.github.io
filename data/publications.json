@@ -4,7 +4,8 @@
             "authors": "Omar Alrawi, Athanasios Avgetidis, Kevin Valakuzhy, Charles Lever, Paul Burbage, Angelos Keromytis, Fabian Monrose, and Manos Antonakakis",
             "url": "",
             "title": "Beyond the Gates: An Empirical Analysis of HTTP-managed password stealers and operators",
-            "venue": "(to appear) USENIX Security Symposium",
+            "venue": "USENIX Security Symposium",
+            "day": 16,
             "month": 8,
             "year": 2023
         },
@@ -13,6 +14,7 @@
             "url": "papers/atc22-du.pdf",
             "title": "Automatic Recovery of Fine-grained Compiler Provenance Information at the Binary Level",
             "venue": "USENIX Annual Technical Conference",
+            "day": 16,
             "month": 7,
             "year": 2022
         },
@@ -21,6 +23,7 @@
             "url": "papers/lim22.pdf",
             "title": "Disentangling Style and Content for Low Resource Video Domain Adaptation: A Case Study on Keystroke Inference Attacks",
             "venue": "ACM Conference on Data and Application Security",
+            "day": 25,
             "month": 4,
             "year": 2022
         },
@@ -29,6 +32,7 @@
             "url": "papers/malone21-sigite.pdf",
             "title": "An Online Gamified Learning Platform for Teaching Cybersecurity and More",
             "venue": "ACM Annual Conference on IT Education",
+            "day": 2,
             "month": 10,
             "year": 2021
         },
@@ -37,6 +41,7 @@
             "url": "papers/palit21.pdf",
             "title": "DynPTA: Combining Static and Dynamic Analysis for Practical Selective Data Protection",
             "venue": "IEEE Symposium on Security and Privacy",
+            "day": 27,
             "month": 5,
             "year": 2021
         },
@@ -45,6 +50,7 @@
             "url": "papers/malone21-icst.pdf",
             "title": "Applicable Micropatches and Where to Find Them: Finding and Applying New Security Hot Fixes to Old Software",
             "venue": "IEEE International Conference on Software Testing, Verification and Validation",
+            "day": 4,
             "month": 5,
             "year": 2021
         },
@@ -53,6 +59,7 @@
             "url": "papers/malone21-sigcse.pdf",
             "title": "To Gamify or Not? On Leaderboard Effects, Student Engagement, and Learning outcomes in a Cybersecurity Intervention",
             "venue": "ACM SIGCSE Technical Symposium",
+            "day": 2,
             "month": 3,
             "year": 2021
         },
@@ -61,6 +68,7 @@
             "url": "papers/sec21-alrawi-circle.pdf",
             "title": "The Circle Of Life: A Large-Scale Study of The IoT Malware Lifecycle",
             "venue": "USENIX Security Symposium",
+            "day": 15,
             "month": 8,
             "year": 2021
         },
@@ -69,6 +77,7 @@
             "url": "papers/ahmed-2020.pdf",
             "title": "Methodologies for Quantifying (Re-)randomization Security andT iming under JIT-ROP",
             "venue": "ACM Conference on Computer and Communications Security",
+            "day": 9,
             "month": 10,
             "year": 2020
         },
@@ -77,8 +86,126 @@
             "url": "papers/das20.pdf",
             "title": "A Flexible Framework for Expediting Bug Findings by Leveraging Past (Mis-)Behavior to Discover New Bugs",
             "venue": "ACM Annual Computer Security Applications Conference",
+            "day": 6,
             "month": 12,
             "year": 2020
+        },
+        {
+            "authors": "Tapti Palit, Fabian Monrose and Michalis Polychronakis",
+            "url": "papers/palit19.pdf",
+            "title": "Mitigating Data Leakage by Protecting Memory-resident Sensitive Data",
+            "venue": "ACM Annual Computer Security Applications Conference",
+            "day": 5,
+            "month": 12,
+            "year": 2019
+        },
+        {
+            "authors": "Jan Werner, Joshua Mason, Manos Antonakakis, Michalis Polychronakis and Fabian Monrose",
+            "url": "papers/werner19.pdf",
+            "title": "The SEVerESt of Them All:Inference Attacks Against Secure Virtual Enclaves",
+            "venue": "ACM Asia Conference on Computer and Communications Security",
+            "day": 22,
+            "month": 7,
+            "year": 2019
+        },
+        {
+            "authors": "Sanjeev Das, Jan Werner, Manos Antonakakis, Michalis Polychronakis and Fabian Monrose",
+            "url": "papers/das19.pdf",
+            "title": "SoK: The Challenges, Pitfalls, and Perils of Using Hardware Performance Counters for Security",
+            "venue": "IEEE Symposium on Security and Privacy",
+            "day": 16,
+            "month": 5,
+            "year": 2019
+        },
+        {
+            "authors": "Omar Alwari, Chaz Lever, Fabian Monrose and Manos Antonakakis",
+            "url": "papers/das19.pdf",
+            "title": "SoK: Security Evaluation of Home-Based IoT Deployments",
+            "venue": "IEEE Symposium on Security and Privacy",
+            "day": 16,
+            "month": 5,
+            "year": 2019
+        },
+        {
+            "authors": "Micah Morton, Jan Werner, Kevin Z. Snow, Michalis Polychronakis, Manos Antonakakis and Fabian Monrose",
+            "url": "papers/morton18.pdf",
+            "title": "Security Concerns in Asynchronous Web Server Architectures: When Performance Optimizations Empower Data-oriented Attacks",
+            "venue": "IEEE European Symposium on Security and Privacy",
+            "day": 10,
+            "month": 4,
+            "year": 2018
+        },
+        {
+            "authors": "Yizheng Chen, Yacin Nadji, Athanasios Kountouras, Fabian Monrose, Roberto Perdisci, Manos Antonakakis and Nikolaos Vasiloglou",
+            "url": "papers/chen17.pdf",
+            "title": "Practical Attacks Against Graph-based Clustering",
+            "venue": "ACM Conference on Computer and Communications Security",
+            "day": 10,
+            "month": 4,
+            "year": 2017
+        },
+        {
+            "authors": "Micah Morton, Forrest Li, Kevin Z. Snow, Michalis Polychronakis and Fabian Monrose",
+            "url": "papers/morton17.pdf",
+            "title": "Keeping Zombie Gadgets at Bay by Re-randomizing after Disclosure",
+            "venue": "Engineering Secure Systems and Software Conference",
+            "day": 4,
+            "month": 7,
+            "year": 2017
+        },
+        {
+            "authors": "Roman Rogowski, Micah Morton, ForrestLi, Kevin Z. Snow, Michalis Polychronakis and Fabian Monrose",
+            "url": "papers/rogowski17.pdf",
+            "title": "Revisiting Browser Security in the Modern Era: New Data-only Attacks and Defenses",
+            "venue": "IEEE European Symposium on Security and Privacy",
+            "day": 20,
+            "month": 3,
+            "year": 2017
+        },
+        {
+            "authors": "Yi Xu, True Price, Jan-Michael Frahm and Fabian Monrose",
+            "url": "papers/sec16_paper_xu.pdf",
+            "title": "Virtual U: Defeating Face Liveness Detection by Building Virtual Models From Your Public Photos",
+            "venue": "USENIX Security Symposium",
+            "day": 22,
+            "month": 8,
+            "year": 2016
+        },
+        {
+            "authors": "Yi Xu, True Price, Jan-Michael Frahm and Fabian Monrose",
+            "url": "papers/snow16b.pdf",
+            "title": "Return to the Zombie Gadgets: Undermining Destructive Code Reads via Code-Inference Attacks",
+            "venue": "IEEE Symposium on Security and Privacy",
+            "day": 22,
+            "month": 5,
+            "year": 2016
+        },
+        {
+            "authors": "Jan Werner, George Baltas, Rob Dallara, Nathan Otterness, Kevin Snow, Fabian Monrose and Michalis Polychronakis",
+            "url": "papers/werner16.pdf",
+            "title": "No-Execute-After-Read: Preventing Code Disclosures in Commodity Software",
+            "venue": "ACM Asia Conference on Computer and Communication Security",
+            "day": 28,
+            "month": 5,
+            "year": 2016
+        },
+        {
+            "authors": "Teryl Taylor, Xin Hu, Ting Wang, Jiyong Jang, Marc Stoeckin, Fabian Monrose and Reiner Sailer",
+            "url": "papers/taylor16.pdf",
+            "title": "Detecting Malicious Exploit Kits using Tree-based Similarity Searches",
+            "venue": "ACM Conference on Data and Application Security and Privacy",
+            "day": 5,
+            "month": 3,
+            "year": 2016
+        },
+        {
+            "authors": "Teryl Taylor, Kevin Snow, Nathan Otterness and Fabian Monrose",
+            "url": "papers/taylor16b.pdf",
+            "title": "Cache, Trigger, Impersonate: Enabling Context-Sensitive Honeyclient Analysis On-the-Wire",
+            "venue": "ISOC Network and Distributed Systems Security Symposium",
+            "day": 2,
+            "month": 5,
+            "year": 2016
         }
     ]
 }
