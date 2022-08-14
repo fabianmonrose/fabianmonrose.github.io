@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <title>Fabian Monrose: Publications</title>
+        <link rel="stylesheet" type="text/css" href="cv.css">
+        
+        
+        <style>
+            /* Browser reset */
+        html {
+            box-sizing: border-box;
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: inherit;
+        }
+
+        /* roboto-regular - latin */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          src: url('../fonts/roboto-v18-latin-regular.eot'); /* IE9 Compat Modes */
+          src: local('Roboto'), local('Roboto-Regular'),
+               url('../fonts/roboto-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+               url('../fonts/roboto-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+               url('../fonts/roboto-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+               url('../fonts/roboto-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+               url('../fonts/roboto-v18-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+        }
+        /* roboto-italic - latin */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: italic;
+          font-weight: 400;
+          src: url('../fonts/roboto-v18-latin-italic.eot'); /* IE9 Compat Modes */
+          src: local('Roboto Italic'), local('Roboto-Italic'),
+               url('../fonts/roboto-v18-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+               url('../fonts/roboto-v18-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+               url('../fonts/roboto-v18-latin-italic.woff') format('woff'), /* Modern Browsers */
+               url('../fonts/roboto-v18-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+               url('../fonts/roboto-v18-latin-italic.svg#Roboto') format('svg'); /* Legacy iOS */
+        }
+        /* roboto-700 - latin */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 700;
+          src: url('../fonts/roboto-v18-latin-700.eot'); /* IE9 Compat Modes */
+          src: local('Roboto Bold'), local('Roboto-Bold'),
+               url('../fonts/roboto-v18-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+               url('../fonts/roboto-v18-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+               url('../fonts/roboto-v18-latin-700.woff') format('woff'), /* Modern Browsers */
+               url('../fonts/roboto-v18-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+               url('../fonts/roboto-v18-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+        }
+
+        body {
+
+            /* Nice light gray background to offset the text a little */
+            background-color: #fefefe;
+            color: #333;
+            margin: 0 auto;
+            max-width: 50em;
+
+            /* System fonts as fallbacks */
+            font-family: "Roboto", -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", "San Francisco", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+            line-height: 1.5;
+            padding: 2em 1em;
+            scroll-behavior: smooth;
+        }
+
+        h1,
+        h2,
+        strong {
+            color: #333;
+            font-family: "Roboto", -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", "San Francisco", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+        }
+
+        h2 a {
+            color: #333;
+        }
+
+        h2 {
+            display: inline;
+        }
+
+        section {
+            margin-top: 1.5em;
+        }
+
+        a {
+            color: #005fd3;
+        }
+
+        .headshot {
+            float: left;
+            width: 10em;
+            padding-right: 1em;
+        }
+
+        .headshot img {
+            width: 100%;
+        }
+
+        @media (max-width: 650px) {
+            .headshot {
+                width: 10em;
+            }
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-flow: row;
+        }
+
+        @media (max-width: 650px) {
+            header {
+                display: flex;
+                align-items: baseline;
+                flex-flow: column;
+            }
+
+            .social-links {
+                margin-top: 0.5em;
+            }
+        }
+
+        @media (max-width: 390px) {
+            header {
+                width: 8em;
+            }
+
+            .social-links {
+                width: 8em;
+            }
+        }
+
+        .social-links a {
+            text-decoration: none;
+        }
+
+        svg {
+            margin-left: 10px;
+            margin-right: 10px;
+            height: 25px;
+            width: 25px;
+        }
+
+        svg path {
+            fill: #005fd3;
+        }
+
+    </style>
+
+    </head>
+    <body>
+
+        <h2 id="publications">Publications</h2>
+
+        <div class="block">
+            
+            <div class="item">
+                Omar Alrawi, Athanasios Avgetidis, Kevin Valakuzhy, Charles Lever, Paul Burbage, Angelos Keromytis, <b>Fabian Monrose</b>, and Manos Antonakakis, <u>&#x201c;Beyond the Gates: An Empirical Analysis of HTTP-managed password stealers and operators&#x201d;</u>, <i>USENIX Security Symposium</i>, 2023 (to appear).
+            </div>
+            
+            <div class="item">
+                Yufei Du, Ryan Court, Kevin Z. Snow and <b>Fabian Monrose</b>, <u><a href="papers/atc22-du.pdf">&#x201c;Automatic Recovery of Fine-grained Compiler Provenance Information at the Binary Level&#x201d;</a></u>, <i>USENIX Annual Technical Conference</i>, 2022.
+            </div>
+            
+            <div class="item">
+                John Lim, Jan-Michael Frahm and <b>Fabian Monrose</b>, <u><a href="papers/lim22.pdf">&#x201c;Disentangling Style and Content for Low Resource Video Domain Adaptation: A Case Study on Keystroke Inference Attacks&#x201d;</a></u>, <i>ACM Conference on Data and Application Security</i>, 2022.
+            </div>
+            
+            <div class="item">
+                Mac Malone, Yicheng Wang and <b>Fabian Monrose</b>, <u><a href="papers/malone21-sigite.pdf">&#x201c;An Online Gamified Learning Platform for Teaching Cybersecurity and More&#x201d;</a></u>, <i>ACM Annual Conference on IT Education</i>, 2021.
+            </div>
+            
+            <div class="item">
+                Omar Alrawi, Athanasios Avgetidis, Kevin Valakuzhy, Charles Lever, Paul Burbage, Angelos Keromytis, <b>Fabian Monrose</b>, and Manos Antonakakis, <u><a href="papers/sec21-alrawi-circle.pdf">&#x201c;The Circle Of Life: A Large-Scale Study of The IoT Malware Lifecycle&#x201d;</a></u>, <i>USENIX Security Symposium</i>, 2021.
+            </div>
+            
+            <div class="item">
+                Tapti Palit, Jarin Firose Moon, <b>Fabian Monrose</b> and Michalis Polychronakis, <u><a href="papers/palit21.pdf">&#x201c;DynPTA: Combining Static and Dynamic Analysis for Practical Selective Data Protection&#x201d;</a></u>, <i>IEEE Symposium on Security and Privacy</i>, 2021.
+            </div>
+            
+            <div class="item">
+                Mac Malone, Yicheng Wang, Kevin Snow and <b>Fabian Monrose</b>, <u><a href="papers/malone21-icst.pdf">&#x201c;Applicable Micropatches and Where to Find Them: Finding and Applying New Security Hot Fixes to Old Software&#x201d;</a></u>, <i>IEEE International Conference on Software Testing, Verification and Validation</i>, 2021.
+            </div>
+            
+            <div class="item">
+                Mac Malone, Yicheng Wang, Kedrian James, Murray Anderegg, Jan Werner and <b>Fabian Monrose</b>, <u><a href="papers/malone21-sigcse.pdf">&#x201c;To Gamify or Not? On Leaderboard Effects, Student Engagement, and Learning outcomes in a Cybersecurity Intervention&#x201d;</a></u>, <i>ACM SIGCSE Technical Symposium</i>, 2021.
+            </div>
+            
+            <div class="item">
+                Sanjeev Das, Kedrian James, Jan Werner, Manos Antonakakis, Michalis Polychronakis and <b>Fabian Monrose</b>, <u><a href="papers/das20.pdf">&#x201c;A Flexible Framework for Expediting Bug Findings by Leveraging Past (Mis-)Behavior to Discover New Bugs&#x201d;</a></u>, <i>ACM Annual Computer Security Applications Conference</i>, 2020.
+            </div>
+            
+            <div class="item">
+                Md Salman Ahmed, Ya Xiao, Kevin Z. Snow, Gang Tan, <b>Fabian Monrose</b> and Danfeng Yao, <u><a href="papers/ahmed-2020.pdf">&#x201c;Methodologies for Quantifying (Re-)randomization Security andT iming under JIT-ROP&#x201d;</a></u>, <i>ACM Conference on Computer and Communications Security</i>, 2020.
+            </div>
+            
+            <div class="item">
+                Tapti Palit, <b>Fabian Monrose</b> and Michalis Polychronakis, <u><a href="papers/palit19.pdf">&#x201c;Mitigating Data Leakage by Protecting Memory-resident Sensitive Data&#x201d;</a></u>, <i>ACM Annual Computer Security Applications Conference</i>, 2019.
+            </div>
+            
+            <div class="item">
+                Jan Werner, Joshua Mason, Manos Antonakakis, Michalis Polychronakis and <b>Fabian Monrose</b>, <u><a href="papers/werner19.pdf">&#x201c;The SEVerESt of Them All:Inference Attacks Against Secure Virtual Enclaves&#x201d;</a></u>, <i>ACM Asia Conference on Computer and Communications Security</i>, 2019.
+            </div>
+            
+            <div class="item">
+                Sanjeev Das, Jan Werner, Manos Antonakakis, Michalis Polychronakis and <b>Fabian Monrose</b>, <u><a href="papers/das19.pdf">&#x201c;SoK: The Challenges, Pitfalls, and Perils of Using Hardware Performance Counters for Security&#x201d;</a></u>, <i>IEEE Symposium on Security and Privacy</i>, 2019.
+            </div>
+            
+            <div class="item">
+                Omar Alwari, Chaz Lever, <b>Fabian Monrose</b> and Manos Antonakakis, <u><a href="papers/das19.pdf">&#x201c;SoK: Security Evaluation of Home-Based IoT Deployments&#x201d;</a></u>, <i>IEEE Symposium on Security and Privacy</i>, 2019.
+            </div>
+            
+            <div class="item">
+                Micah Morton, Jan Werner, Kevin Z. Snow, Michalis Polychronakis, Manos Antonakakis and <b>Fabian Monrose</b>, <u><a href="papers/morton18.pdf">&#x201c;Security Concerns in Asynchronous Web Server Architectures: When Performance Optimizations Empower Data-oriented Attacks&#x201d;</a></u>, <i>IEEE European Symposium on Security and Privacy</i>, 2018.
+            </div>
+            
+            <div class="item">
+                Micah Morton, Forrest Li, Kevin Z. Snow, Michalis Polychronakis and <b>Fabian Monrose</b>, <u><a href="papers/morton17.pdf">&#x201c;Keeping Zombie Gadgets at Bay by Re-randomizing after Disclosure&#x201d;</a></u>, <i>Engineering Secure Systems and Software Conference</i>, 2017.
+            </div>
+            
+            <div class="item">
+                Yizheng Chen, Yacin Nadji, Athanasios Kountouras, <b>Fabian Monrose</b>, Roberto Perdisci, Manos Antonakakis and Nikolaos Vasiloglou, <u><a href="papers/chen17.pdf">&#x201c;Practical Attacks Against Graph-based Clustering&#x201d;</a></u>, <i>ACM Conference on Computer and Communications Security</i>, 2017.
+            </div>
+            
+            <div class="item">
+                Roman Rogowski, Micah Morton, ForrestLi, Kevin Z. Snow, Michalis Polychronakis and <b>Fabian Monrose</b>, <u><a href="papers/rogowski17.pdf">&#x201c;Revisiting Browser Security in the Modern Era: New Data-only Attacks and Defenses&#x201d;</a></u>, <i>IEEE European Symposium on Security and Privacy</i>, 2017.
+            </div>
+            
+            <div class="item">
+                Yi Xu, True Price, Jan-Michael Frahm and <b>Fabian Monrose</b>, <u><a href="papers/sec16_paper_xu.pdf">&#x201c;Virtual U: Defeating Face Liveness Detection by Building Virtual Models From Your Public Photos&#x201d;</a></u>, <i>USENIX Security Symposium</i>, 2016.
+            </div>
+            
+            <div class="item">
+                Jan Werner, George Baltas, Rob Dallara, Nathan Otterness, Kevin Snow, <b>Fabian Monrose</b> and Michalis Polychronakis, <u><a href="papers/werner16.pdf">&#x201c;No-Execute-After-Read: Preventing Code Disclosures in Commodity Software&#x201d;</a></u>, <i>ACM Asia Conference on Computer and Communication Security</i>, 2016.
+            </div>
+            
+            <div class="item">
+                Yi Xu, True Price, Jan-Michael Frahm and <b>Fabian Monrose</b>, <u><a href="papers/snow16b.pdf">&#x201c;Return to the Zombie Gadgets: Undermining Destructive Code Reads via Code-Inference Attacks&#x201d;</a></u>, <i>IEEE Symposium on Security and Privacy</i>, 2016.
+            </div>
+            
+            <div class="item">
+                Teryl Taylor, Kevin Snow, Nathan Otterness and <b>Fabian Monrose</b>, <u><a href="papers/taylor16b.pdf">&#x201c;Cache, Trigger, Impersonate: Enabling Context-Sensitive Honeyclient Analysis On-the-Wire&#x201d;</a></u>, <i>ISOC Network and Distributed Systems Security Symposium</i>, 2016.
+            </div>
+            
+            <div class="item">
+                Teryl Taylor, Xin Hu, Ting Wang, Jiyong Jang, Marc Stoeckin, <b>Fabian Monrose</b> and Reiner Sailer, <u><a href="papers/taylor16.pdf">&#x201c;Detecting Malicious Exploit Kits using Tree-based Similarity Searches&#x201d;</a></u>, <i>ACM Conference on Data and Application Security and Privacy</i>, 2016.
+            </div>
+            
+        </div>
+
+    </body>
+</html>
