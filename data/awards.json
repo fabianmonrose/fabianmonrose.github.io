@@ -1,0 +1,44 @@
+{"awards":
+    [
+        {
+            "name": "CSSA Graduate Teaching Award",
+            "venue": "UNC Computer Science Department",
+            "year": 2021
+        },
+        {
+            "name": "Undergraduate Students Teaching Award",
+            "venue": "UNC Computer Science Department",
+            "year": 2015
+        },
+        {
+            "name": "Best Student Paper Award",
+            "venue": "IEEE Symposium on Security and Privacy",
+            "year": 2013
+        },
+        {
+            "name": "Outstanding Research in Privacy Enhancing Technologies",
+            "venue": "Privacy Enhancing Technologies",
+            "year": 2012
+        },
+        {
+            "name": "ATT Best Applied Security Paper Award",
+            "venue": "NYU-Poly CSAW",
+            "year": 2011
+        },
+        {
+            "name": "Best Paper Award",
+            "venue": "IEEE Symposium on Security and Privacy",
+            "year": 2011
+        },
+        {
+            "name": "CAREER Award",
+            "venue": "National Science Foundation",
+            "year": 2006
+        },
+        {
+            "name": "Best Overall and Best Student Paper Awards",
+            "venue": "USENIX Security Symposium",
+            "year": 1999
+        }
+    ]
+}

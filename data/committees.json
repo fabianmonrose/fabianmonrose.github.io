@@ -1,0 +1,52 @@
+{"committees":
+    [
+        {
+            "name": "Omar Alwari",
+            "location": "GaTech, GA",
+            "start": 2019,
+            "end": "now"
+        },
+        {
+            "name": "Salman Ahmed",
+            "location": "Virginia Tech, VA",
+            "start": 2019,
+            "end": 2021
+        },
+        {
+            "name": "Tapti Palit",
+            "location": "Stony Brook University, NY",
+            "start": 2018,
+            "end": 2021
+        },
+        {
+            "name": "Calvin Deutschbein",
+            "location": "University of North Carolina, Chapel Hill",
+            "start": 2019,
+            "end": 2021
+        },
+        {
+            "name": "Adrian Tang",
+            "location": "Columbia University, NY",
+            "start": 2016,
+            "end": 2018
+        },
+        {
+            "name": "Chaz Lever",
+            "location": "GaTech, GA",
+            "start": 2014,
+            "end": 2017
+        },
+        {
+            "name": "Louis Soleyn",
+            "location": "University of the West Indies, Barbados",
+            "start": 2016,
+            "end": 2018
+        },
+        {
+            "name": "Tracy John",
+            "location": "University of the West Indies, Barbados",
+            "start": 2016,
+            "end": 2017
+        }
+    ]
+}

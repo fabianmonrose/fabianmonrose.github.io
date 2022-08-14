@@ -1,0 +1,87 @@
+{"publications":
+    [
+        {
+            "authors": "Omar Alrawi, Athanasios Avgetidis, Kevin Valakuzhy, Charles Lever, Paul Burbage, Angelos Keromytis, Fabian Monrose, and Manos Antonakakis",
+            "url": "",
+            "title": "Beyond the Gates: An Empirical Analysis of HTTP-managed password stealers and operators",
+            "venue": "(to appear) USENIX Security Symposium",
+            "month": 8,
+            "year": 2023
+        },
+        {
+            "authors": "Yufei Du, Ryan Court, Kevin Z. Snow and Fabian Monrose",
+            "url": "papers/atc22-du.pdf",
+            "title": "Automatic Recovery of Fine-grained Compiler Provenance Information at the Binary Level",
+            "venue": "USENIX Annual Technical Conference",
+            "month": 7,
+            "year": 2022
+        },
+        {
+            "authors": "John Lim, Jan-Michael Frahm and Fabian Monrose",
+            "url": "papers/lim22.pdf",
+            "title": "Disentangling Style and Content for Low Resource Video Domain Adaptation: A Case Study on Keystroke Inference Attacks",
+            "venue": "ACM Conference on Data and Application Security",
+            "month": 4,
+            "year": 2022
+        },
+        {
+            "authors": "Mac Malone, Yicheng Wang and Fabian Monrose",
+            "url": "papers/malone21-sigite.pdf",
+            "title": "An Online Gamified Learning Platform for Teaching Cybersecurity and More",
+            "venue": "ACM Annual Conference on IT Education",
+            "month": 10,
+            "year": 2021
+        },
+        {
+            "authors": "Tapti Palit, Jarin Firose Moon, Fabian Monrose and Michalis Polychronakis",
+            "url": "papers/palit21.pdf",
+            "title": "DynPTA: Combining Static and Dynamic Analysis for Practical Selective Data Protection",
+            "venue": "IEEE Symposium on Security and Privacy",
+            "month": 5,
+            "year": 2021
+        },
+        {
+            "authors": "Mac Malone, Yicheng Wang, Kevin Snow and Fabian Monrose",
+            "url": "papers/malone21-icst.pdf",
+            "title": "Applicable Micropatches and Where to Find Them: Finding and Applying New Security Hot Fixes to Old Software",
+            "venue": "IEEE International Conference on Software Testing, Verification and Validation",
+            "month": 5,
+            "year": 2021
+        },
+        {
+            "authors": "Mac Malone, Yicheng Wang, Kedrian James, Murray Anderegg, Jan Werner and Fabian Monrose",
+            "url": "papers/malone21-sigcse.pdf",
+            "title": "To Gamify or Not? On Leaderboard Effects, Student Engagement, and Learning outcomes in a Cybersecurity Intervention",
+            "venue": "ACM SIGCSE Technical Symposium",
+            "month": 3,
+            "year": 2021
+        },
+        {
+            "authors": "Omar Alrawi, Athanasios Avgetidis, Kevin Valakuzhy, Charles Lever, Paul Burbage, Angelos Keromytis, Fabian Monrose, and Manos Antonakakis",
+            "url": "papers/sec21-alrawi-circle.pdf",
+            "title": "The Circle Of Life: A Large-Scale Study of The IoT Malware Lifecycle",
+            "venue": "USENIX Security Symposium",
+            "month": 8,
+            "year": 2021
+        },
+        {
+            "authors": "Md Salman Ahmed, Ya Xiao, Kevin Z. Snow, Gang Tan, Fabian Monrose and Danfeng Yao",
+            "url": "papers/ahmed-2020.pdf",
+            "title": "Methodologies for Quantifying (Re-)randomization Security andT iming under JIT-ROP",
+            "venue": "ACM Conference on Computer and Communications Security",
+            "month": 10,
+            "year": 2020
+        },
+        {
+            "authors": "Sanjeev Das, Kedrian James, Jan Werner, Manos Antonakakis, Michalis Polychronakis and Fabian Monrose",
+            "url": "papers/das20.pdf",
+            "title": "A Flexible Framework for Expediting Bug Findings by Leveraging Past (Mis-)Behavior to Discover New Bugs",
+            "venue": "ACM Annual Computer Security Applications Conference",
+            "month": 12,
+            "year": 2020
+        }
+    ]
+}
+
+
+

@@ -1,0 +1,29 @@
+{"teaching":
+    [
+        {
+            "name": "Introduction to Computer Security",
+            "location": "UNC Chapel Hill",
+            "year": 2021
+        },
+        {
+            "name": "Computer and Network Forensics",
+            "location": "UNC Chapel Hill",
+            "year": 2021
+        },
+        {
+            "name": "Technical Communications and Writing in CS",
+            "location": "UNC Chapel Hill",
+            "year": 2020
+        },
+        {
+            "name": "Computer Forensics",
+            "location": "UNC Chapel Hill",
+            "year": 2017
+        },
+        {
+            "name": "Network Security",
+            "location": "UNC Chapel Hill",
+            "year": 2014
+        }
+    ]
+}

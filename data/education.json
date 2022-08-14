@@ -1,0 +1,26 @@
+{"education":
+    [
+        {
+            "place": "New York University, New York, NY",
+            "start": "1996",
+            "end": "1999",
+            "degree": "Ph.D. in Computer Science",
+            "lab": "Distributed Computing and Systems Lab",
+            "advisor": "<a href=\"https://cs.nyu.edu/~kedem/\">Zvi</a> M. Kedem and <a href=\"https://engineering.jhu.edu/faculty/aviel-rubin/\">Aviel </a> D. Rubin"
+        },
+        {
+            "place": "New York University, New York, NY",
+            "start": "1993",
+            "end": "1996",
+            "degree": "M.Sc. in Computer Science",
+            "lab": "Distributed Computing and Systems Lab",
+            "advisor": "Zvi M. Kedem"
+        },
+        {
+            "place": "Barry University, Miami, FL",
+            "start": "1989",
+            "end": "1993",
+            "degree": "B.Sc. Computer Science"
+        }
+    ]
+}

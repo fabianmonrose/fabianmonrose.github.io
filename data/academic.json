@@ -1,0 +1,43 @@
+{"academic":
+    [
+        {
+            "place": "College of Engineering and School of Cyber Security and Privacy, Georgia Tech",
+            "start": "2022",
+            "end": "now",
+            "title": "Julian T. Hightower Chair"
+        },
+        {
+            "place": "Department of Computer Science, UNC Chapel Hill",
+            "start": "2017",
+            "end": "2022",
+            "title": "Kenan Distinguished Professor"
+        },
+        {
+            "place": "Department of Computer Science, UNC Chapel Hill",
+            "start": "2012",
+            "end": "2017",
+            "title": "Professor"
+        },
+        {
+            "place": "Department of Computer Science, UNC Chapel Hill",
+            "start": "2008",
+            "end": "2012",
+            "title": "Associate Professor"
+        },
+        {
+            "place": "Department of Computer Science, Johns Hopkins University",
+            "start": "2007",
+            "end": "2008",
+            "title": "Associate Professor"
+        },
+        {
+            "place": "Department of Computer Science, Johns Hopkins University",
+            "start": "2002",
+            "end": "2007",
+            "title": "Assistant Professor"
+        }
+        
+    ]
+}
+
+
