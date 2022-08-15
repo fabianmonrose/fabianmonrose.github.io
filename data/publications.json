@@ -206,6 +206,51 @@
             "day": 2,
             "month": 5,
             "year": 2016
+        },
+        {
+            "authors": "Luca Davi, Christopher Liebchen, Ahmad-Reza Sadeghi, Kevin Z. Snow, and Fabian Monrose",
+            "url": "papers/davi15.pdf",
+            "title": "Isomeron: Code Randomization Resilient to (Just-in-Time) Return-Oriented Programming",
+            "venue": "ISOC Network and Distributed Systems Security Symposium",
+            "day": 7,
+            "month": 2,
+            "year": 2015
+        },
+        {
+            "authors": "Yi Xu, Jan-Michael Frahm and Fabian Monrose",
+            "url": "papers/xu15.pdf",
+            "title": "Watching the Watchers: Inferring TV Content from Outdoor Light Effusions",
+            "venue": "ACM Conference on Computer and Communications Security",
+            "day": 18,
+            "month": 10,
+            "year": 2014
+        },
+        {
+            "authors": "Blaine Stancill, Kevin Snow, Nathan Otterness, Fabian Monrose, Lucas Davi, and Ahmad-Reza Sadeghi",
+            "url": "papers/stancil13.pdf",
+            "title": "Check my profile: Leverage static analysis for fast and accurate detection of ROP gadgets",
+            "venue": "International Symposium on Research in Attacks, Intrusions, and Defenses",
+            "day": 18,
+            "month": 10,
+            "year": 2013
+        },
+        {
+            "authors": "Yi Xu, Jared Heinly, Andrew M. White, Fabian Monrose and Jan-Michael Frahm",
+            "url": "papers/xu13.pdf",
+            "title": "Seeing Double: Reconstructing Obscured Typed Input from Repeated Compromising Reflections",
+            "venue": "ACM Conference on Computer and Communications Security",
+            "day": 18,
+            "month": 10,
+            "year": 2013
+        },
+        {
+            "authors": "Srinivas Krishnan, Teryl Taylor, Fabian Monrose and John McHugh",
+            "url": "papers/xu13.pdf",
+            "title": "Crossing the Threshold: Detecting Network Malfeasance via Sequential Hypothesis Testing",
+            "venue": "International Conferences on Dependable Systems and Networks; Performance and Dependability Symposium",
+            "day": 4,
+            "month": 6,
+            "year": 2013
         }
     ]
 }
