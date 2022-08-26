@@ -251,6 +251,144 @@
             "day": 4,
             "month": 6,
             "year": 2013
+        },
+        {
+            "authors": "Kevin Snow, Lucas Davi, Alexandra Dmitrienko, Christopher Liebchen, Fabian Monrose and Ahmad-Reza Sadeghi",
+            "url": "papers/snow13.pdf",
+            "title": "Just-In-Time Code Reuse: On the Effectiveness of Fine-Grained Address Space Layout Randomization",
+            "venue": "IEEE Symposium on Security and Privacy",
+            "awards": "Best Student Paper Award",
+            "day": 5,
+            "month": 5,
+            "year": 2013
+        },
+        {
+            "authors": "Andrew White, Srinivas Krishnan, Michael Bailey, Fabian Monrose and Phil Porras",
+            "url": "papers/white13.pdf",
+            "title": "Clear and Present Data: Opaque Traffic and its Security Implications for the Future",
+            "venue": "ISOC Network and Distributed Systems Security Symposium",
+            "day": 6,
+            "month": 2,
+            "year": 2013
+        },
+        {
+            "authors": "Yi Xu, Gerardo Reynaga, Sonia Chiasson, Jan-Michael Frahm, Fabian Monrose and Paul van Oorschot",
+            "url": "papers/xu13.pdf",
+            "title": "Security and Usability Challenges of Moving-Object CAPTCHAs: Decoding Codewords in Motion",
+            "venue": "USENIX Security Symposium",
+            "day": 6,
+            "month": 8,
+            "year": 2012
+        },
+        {
+            "authors": "Teryl Taylor, Scott E. Coull, Fabian Monrose and John McHugh",
+            "url": "papers/taylor12.pdf",
+            "title": "Toward Efficient Querying of Compressed Network Payloads",
+            "venue": "In USENIX Annual Technical Conference",
+            "day": 7,
+            "month": 6,
+            "year": 2012
+        },
+        {
+            "authors": "Rahul Raguram, Andrew White, Dibyendusekhar Goswami, Fabian Monrose and Jan-Michael Frahm",
+            "url": "papers/raguram11.pdf",
+            "title": "iSpy: Automatic Reconstruction of Typed Input from Compromising Reflections",
+            "venue": "ACM Conference on Computer and Communications Security",
+            "day": 7,
+            "month": 10,
+            "year": 2011
+        },
+        {
+            "authors": "Kevin Snow, Srinivas Krishnan, Fabian Monrose and Niels Provos",
+            "url": "papers/snow11.pdf",
+            "title": "Enabling Fast Detection and Forensic Analysis of Code Injection Attacks",
+            "venue": "USENIX Security Symposium",
+            "day": 7,
+            "month": 8,
+            "year": 2011
+        },
+        {
+            "authors": "Srinivas Krishnan and Fabian Monrose",
+            "url": "papers/krishnan11.pdf",
+            "title": "An Empirical Study of the Performance, Security and Privacy Implications of Domain Name Prefetching",
+            "venue": "IEEE/IFIP International Conferences on Dependable Systems and Networks; Depend- able Computing and Communications Symposium",
+            "day": 7,
+            "month": 6,
+            "year": 2011
+        },
+        {
+            "authors": "Xin Huang, Fabian Monrose, and Michael K. Reiter",
+            "url": "papers/huang11.pdf",
+            "title": "Amplifying Limited Expert Input to Sanitize Large Network Traces",
+            "venue": "IEEE/IFIP International Conferences on Dependable Systems and Networks; Depend- able Computing and Communications Symposium",
+            "day": 7,
+            "month": 6,
+            "year": 2011
+        },
+        {
+            "authors": "Andrew White, Kevin Snow, Austin Matthews and Fabian Monrose",
+            "url": "papers/white11.pdf",
+            "title": "Phonotactic Reconstruction of Encrypted VoIP Conversations",
+            "venue": "IEEE Symposium on Security and Privacy",
+            "awards": "Best Paper Award, Outstanding Research In Privacy Enhancing Technologies Award",
+            "day": 7,
+            "month": 5,
+            "year": 2011
+        },
+        {
+            "authors": "Daniel Kumar, Fabian Monrose and Michael K. Reiter",
+            "url": "papers/kumar11.pdf",
+            "title": "Towards Optimized Probe Scheduling for Active Measurement Studies",
+            "venue": "International Conference on Internet Monitoring and Protection",
+            "awards": "Best Paper Award",
+            "day": 7,
+            "month": 3,
+            "year": 2011
+        },
+        {
+            "authors": "Scott Coull, Micheal Bailey and Fabian Monrose",
+            "url": "papers/coull11.pdf",
+            "title": "On Measuring the Similarity of Network Hosts: Pitfalls, New Metrics, and Empirical Analyses",
+            "venue": "Network and Distributed Systems Security Symposium",
+            "day": 7,
+            "month": 2,
+            "year": 2011
+        },
+        {
+            "authors": "Srinivas Krishnan, Kevin Snow, and Fabian Monrose",
+            "url": "papers/krishnan10.pdf",
+            "title": "Trail of Bytes: Efficient Support for Forensic Analysis",
+            "venue": "ACM Conference on Computer and Communications Security",
+            "day": 7,
+            "month": 10,
+            "year": 2010
+        },
+        {
+            "authors": "Yinqian Zhang, Fabian Monrose, and Michael K. Reiter",
+            "url": "papers/zhang10.pdf",
+            "title": "The Security of Modern Password Expiration: An Algorithmic Framework and Empirical Analysis",
+            "venue": "ACM Conference on Computer and Communications Security",
+            "day": 7,
+            "month": 10,
+            "year": 2010
+        },
+        {
+            "authors": "Scott Coull, Andrew White, Ting-Fang Yen, Fabian Monrose and Michael K. Reiter",
+            "url": "papers/coull10.pdf",
+            "title": "Understanding Domain Registration Abuses",
+            "venue": "International Information Security Conference",
+            "day": 7,
+            "month": 10,
+            "year": 2010
+        },
+        {
+            "authors": "Josh Mason, Sam Small, Greg McManus and Fabian Monrose",
+            "url": "papers/mason09.pdf",
+            "title": "English Shellcode",
+            "venue": "ACM Conference on Computer and Communications Security",
+            "day": 7,
+            "month": 11,
+            "year": 2009
         }
     ]
 }
