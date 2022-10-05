@@ -1,6 +1,16 @@
 {"publications":
     [
         {
+            "authors": "Mac Malone, Yicheng Wang and Fabian Monrose",
+            "url": "",
+            "title": "Securely Autograding Cybersecurity Exercises Using Web Accessible Jupyter Notebooks",
+            "venue": "ACM SIGCSE Technical Symposium",
+            "day": 2,
+            "month": 4,
+            "year": 2023
+        },
+
+        {
             "authors": "Omar Alrawi, Athanasios Avgetidis, Kevin Valakuzhy, Charles Lever, Paul Burbage, Angelos Keromytis, Fabian Monrose, and Manos Antonakakis",
             "url": "",
             "title": "Beyond the Gates: An Empirical Analysis of HTTP-managed password stealers and operators",
@@ -8,6 +18,15 @@
             "day": 16,
             "month": 8,
             "year": 2023
+        },
+        {
+            "authors": "Aaron Faulkenberry, Athanasios Avgetidis, Zane Ma, Omar Alrawi, Charles Lever, Panagiotis Kintis, Fabian Monrose, Angelos Keromytis, and Manos Antonakakis",
+            "url": "",
+            "title": "View from Above: Exploring the Malware Ecosystem from the Upper DNS Hierarchy",
+            "venue": "ACM Annual Computer Security Applications Conference",
+            "day": 6,
+            "month": 12,
+            "year": 2022
         },
         {
             "authors": "Yufei Du, Ryan Court, Kevin Z. Snow and Fabian Monrose",
