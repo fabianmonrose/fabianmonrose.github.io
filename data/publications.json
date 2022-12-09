@@ -21,10 +21,19 @@
         },
         {
             "authors": "Aaron Faulkenberry, Athanasios Avgetidis, Zane Ma, Omar Alrawi, Charles Lever, Panagiotis Kintis, Fabian Monrose, Angelos Keromytis, and Manos Antonakakis",
-            "url": "",
+            "url": "papers/avgetidis22.pdf",
             "title": "View from Above: Exploring the Malware Ecosystem from the Upper DNS Hierarchy",
             "venue": "ACM Annual Computer Security Applications Conference",
-            "day": 6,
+            "day": 8,
+            "month": 12,
+            "year": 2022
+        },
+        {
+            "authors": "Kedrian James, Yufei Du, Sanjeev Das and Fabian Monrose",
+            "url": "papers/james22.pdf",
+            "title": "Separating the Wheat from the Chaff: Using Indexing and Sub-sequence Mining Techniques to Identify Related Crashes During Bug Triage",
+            "venue": "IEEE International Conference on Software Quality, Reliability, and Security",
+            "day": 5,
             "month": 12,
             "year": 2022
         },
