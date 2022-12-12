@@ -1,5 +1,6 @@
 {"publications":
     [
+
         {
             "authors": "Mac Malone, Yicheng Wang and Fabian Monrose",
             "url": "",
@@ -18,6 +19,15 @@
             "day": 16,
             "month": 8,
             "year": 2023
+        },
+        {
+            "authors": "Kedrian James, Yufei Du, Sanjeev Das and Fabian Monrose",
+            "url": "",
+            "title": "Separating the Wheat from the Chaff: Using Indexing and Sub-sequence Mining Techniques to Identify Related Crashes During Bug Triage",
+            "venue": "IEEE International Conference on Software Quality, Reliability, and Security",
+            "day": 2,
+            "month": 12,
+            "year": 2022
         },
         {
             "authors": "Aaron Faulkenberry, Athanasios Avgetidis, Zane Ma, Omar Alrawi, Charles Lever, Panagiotis Kintis, Fabian Monrose, Angelos Keromytis, and Manos Antonakakis",
