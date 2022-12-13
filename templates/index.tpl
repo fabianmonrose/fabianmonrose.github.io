@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>fabianmonrose.github.io</title>
+    <link rel="stylesheet" type="text/css" href="cv.css">
+
+    <!-- Based heavily off Colin Raffel's github shared templates; https://github.com/craffel/craffel.github.io -->
+   
+    <!-- Inline stylesheet since there isn't a lot of classes -->
+    <style>
+
+        /* Browser reset */
+        html {
+            box-sizing: border-box;
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: inherit;
+        }
+
+        /* roboto-regular - latin */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          src: url('../fonts/roboto-v18-latin-regular.eot'); /* IE9 Compat Modes */
+          src: local('Roboto'), local('Roboto-Regular'),
+               url('../fonts/roboto-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+               url('../fonts/roboto-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+               url('../fonts/roboto-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+               url('../fonts/roboto-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+               url('../fonts/roboto-v18-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+        }
+        /* roboto-italic - latin */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: italic;
+          font-weight: 400;
+          src: url('../fonts/roboto-v18-latin-italic.eot'); /* IE9 Compat Modes */
+          src: local('Roboto Italic'), local('Roboto-Italic'),
+               url('../fonts/roboto-v18-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+               url('../fonts/roboto-v18-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+               url('../fonts/roboto-v18-latin-italic.woff') format('woff'), /* Modern Browsers */
+               url('../fonts/roboto-v18-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+               url('../fonts/roboto-v18-latin-italic.svg#Roboto') format('svg'); /* Legacy iOS */
+        }
+        /* roboto-700 - latin */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 700;
+          src: url('../fonts/roboto-v18-latin-700.eot'); /* IE9 Compat Modes */
+          src: local('Roboto Bold'), local('Roboto-Bold'),
+               url('../fonts/roboto-v18-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+               url('../fonts/roboto-v18-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+               url('../fonts/roboto-v18-latin-700.woff') format('woff'), /* Modern Browsers */
+               url('../fonts/roboto-v18-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+               url('../fonts/roboto-v18-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+        }
+
+        body {
+
+            /* Nice light gray background to offset the text a little */
+            background-color: #fefefe;
+            color: #333;
+            margin: 0 auto;
+            max-width: 50em;
+
+            /* System fonts as fallbacks */
+            font-family: "Roboto", -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", "San Francisco", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+            line-height: 1.5;
+            padding: 2em 1em;
+            scroll-behavior: smooth;
+        }
+
+        h1,
+        h2,
+        strong {
+            color: #333;
+            font-family: "Roboto", -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", "San Francisco", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+        }
+
+        h2 a {
+            color: #333;
+        }
+
+        h2 {
+            display: inline;
+        }
+
+        section {
+            margin-top: 1.5em;
+        }
+
+        a {
+            color: #005fd3;
+        }
+
+        .headshot {
+            float: left;
+            width: 10em;
+            padding-right: 1em;
+        }
+
+        .headshot img {
+            width: 100%;
+        }
+
+        @media (max-width: 650px) {
+            .headshot {
+                width: 10em;
+            }
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-flow: row;
+        }
+
+        @media (max-width: 650px) {
+            header {
+                display: flex;
+                align-items: baseline;
+                flex-flow: column;
+            }
+
+            .social-links {
+                margin-top: 0.5em;
+            }
+        }
+
+        @media (max-width: 390px) {
+            header {
+                width: 8em;
+            }
+
+            .social-links {
+                width: 8em;
+            }
+        }
+
+        .social-links a {
+            text-decoration: none;
+        }
+
+        svg {
+            margin-left: 10px;
+            margin-right: 10px;
+            height: 25px;
+            width: 25px;
+        }
+
+        svg path {
+            fill: #005fd3;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Headshot -->
+    <div class="headshot">
+        <a href="images/me.png"><img src="images/me.png" border=2 alt="Fabian" title="Profile Pic"/></a>
+    </div>
+
+    <!-- Header with social links -->
+    <header>
+        <h1 style="margin-top: 0px; margin-bottom: 4px">Fabian Monrose</h1>
+
+        <div class="social-links">
+           
+                <a href="https://scholar.google.com/citations?user=a6u7NTgAAAAJ" target="_blank"> <svg
+                    xmlns="http://www.w3.org/2000/svg" width="260" height="300" viewBox="0 0 260 300">
+                    <path d="M103.72829,298.88172 C76.34128,296.29847 55.07609,284.76559 45.35826,267.22554 C41.88286,260.95267 41.53217,259.17959 41.53217,247.88048 C41.53217,236.92091 41.98334,234.4643 45.32507,227.22802 C55.34292,205.5351 81.81566,191.58318 121.07774,187.30412 C128.8195,186.46036 135.15369,185.29711 135.15369,184.71913 C135.15369,184.14113 133.53332,181.17574 131.55287,178.12935 C128.28338,173.10012 127.95204,171.47589 127.95204,160.47801 L127.95204,148.36556 L120.66352,148.36613 C95.21126,148.36813 75.12542,136.82734 65.03001,116.40067 C61.35084,108.95637 60.18949,104.78799 59.59142,96.88019 L58.83097,86.82528 L29.89344,86.82528 L0.95591,86.82528 L44.15096,43.61534 L87.346,0.40541 L173.73232,0.40541 L260.11864,0.40541 L252.63063,7.97238 L245.14262,15.53935 L245.14262,26.8935 C245.14262,35.05352 245.64139,38.54221 246.91555,39.29476 C251.32526,41.89915 251.68958,45.81489 251.68958,90.60576 C251.68958,120.92264 251.21713,136.18648 250.21033,138.39615 C246.89693,145.66826 235.53195,145.66826 232.21855,138.39615 C230.12498,133.80126 230.16142,47.62569 232.25885,43.02226 C233.09461,41.18796 234.27307,39.68717 234.87763,39.68717 C235.4822,39.68717 235.97151,36.29911 235.96499,32.15816 L235.95319,24.62916 L216.93681,43.74684 C198.13874,62.64504 197.93843,62.9081 199.48873,66.66119 C200.35263,68.75261 201.07886,76.63301 201.10567,84.20649 C201.18037,105.2887 199.00077,109.8059 179.53153,128.9215 C163.79908,144.36813 161.34149,147.91827 161.34149,155.19815 C161.34149,159.77841 166.77833,165.59815 186.76371,182.41089 C200.69031,194.12665 207.39839,202.24827 210.82478,211.54212 C214.67985,221.99874 215.3643,230.71556 213.16028,241.28612 C205.02561,280.30018 159.69108,304.16036 103.72825,298.88172 L103.72829,298.88172 Z M147.82552,283.18755 C154.75843,282.26978 161.10718,280.35673 167.47343,277.26712 C182.12774,270.15523 188.86239,259.963 188.81001,244.97642 C188.75861,230.27494 182.21614,220.86779 161.11753,205.15845 L149.39848,196.43284 L134.74707,197.20777 C111.70669,198.42641 95.8907,203.69967 84.90527,213.8257 C76.58521,221.49484 73.60929,228.25646 73.62507,239.4555 C73.65787,262.75366 92.18981,279.06402 123.36916,283.23638 C134.11128,284.67388 136.63593,284.66884 147.82552,283.18758 L147.82552,283.18755 Z M151.85933,133.13328 C155.64618,131.31754 160.26234,127.84197 162.11749,125.40975 C175.33106,108.08587 168.93712,68.34304 149.51809,47.09552 C141.02561,37.80341 132.23698,33.87543 122.01307,34.80251 C102.63987,36.55921 91.52619,50.26903 91.51737,72.42196 C91.50517,103.13522 108.02842,131.43235 129.04142,136.68421 C135.22411,138.22947 144.11702,136.84554 151.85933,133.13328 Z"
+                        transform="translate(-1)" /></svg> </a>
+    
+
+            
+        </div>
+    </header>
+
+    <!-- Bio and stuff -->
+    <main>
+        <p>
+            As of August 2022, I am the Julian T. Hightower Chair Professor in Cybersecurity within the <a href="https://www.ece.gatech.edu/">School of Electrical and Computer Engineering</a>. I also hold a courtesy appointment in the <a href="https://scp.cc.gatech.edu/">School of Cybersecurity and Privacy</a>. My research interests include all aspects of computer and network security.
+        </p>
+
+
+        <div class="vline"></div>
+        <br clear=both>
+        <h2 id="academic">Academic Positions</h2>
+
+        <div class="block">
+            {% for item in academic %}
+            <div class="onelineitem">
+                <div class="yearrange">{{item.start}}&#8211;{{item.end}}</div>
+                <div class="yearright">
+                    <strong>{{item.title}}</strong>, {{item.place}}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <h2 id="education">Education</h2>
+
+        <div class="block">
+            {% for item in education %}
+            <div class="item">
+                <div class="yearrange">{{item.start}}&#8211;{{item.end}}</div>
+                <div class="yearright">
+                    <strong>{{item.place}}</strong><br />
+                    {{item.degree}}<br />
+                    {% if item.lab %}{{item.lab}}<br />{% endif %}
+                    {% if item.advisor %}Advisor: {{item.advisor}}<br />{% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <h2 id="publications">Recent Publications</h2> <i>(<a href="pubs.html#publications">more</a>)</i>
+
+
+        <div class="block">
+        
+        
+        
+        {% for item in publications %}
+        {% if item.recent %}<p>{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.title}}{% if item.url %}</a>{% endif %}<br />
+        {{item.authors}}<br />
+        <i>{{item.venue}}</i>, {{item.year}}.<br />
+{% if item.note %}        <b>{{item.note}}</b><br />{% endif %}
+        </p>{% endif %}
+{% endfor %}
+        
+          
+            
+        </div>
+
+        <h2 id="awards">Honors and Awards</h2>
+
+        <div class="block">
+            {% for item in awards %}
+            <div class="item">
+                <div class="year">{{item.year}}</div>
+                <div class="yearright">
+                    <strong>{{item.name}}</strong><br />
+                    {{item.venue}}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+
+
+        <h2 id="teaching">Recent Courses</h2>
+
+        <div class="block">
+            {% for item in teaching %}
+            <div class="onelineitem">
+                <div class="year">{{item.year}}</div>
+                <div class="yearright">
+                    <strong>{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.name}}{% if item.url %}</a>{% endif %}</strong>, {{item.location}}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <h2 id="mentorship">Advising</h2>
+
+        <div class="block">
+            {% for item in mentorship %}
+            <div class="onelineitem">
+                <div class="yearrange">{{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}</div>
+                <div class="yearright">
+                    <strong>{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.name}}{% if item.url %}</a>{% endif %}</strong>, {{item.description}}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        
+        <h2 id="service">Recent Doctoral Committees</h2>
+
+        <div class="block">
+            {% for item in committees %}
+            <div class="onelineitem">
+                <div class="yearrange">{{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}</div>
+                <div class="yearright">
+                    <strong>{{item.name}}</strong>, {{item.location}}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+    <br clear=both>
+    <div class="vline"></div>
+    </main>
+  
+      
+</body>
+</html>
