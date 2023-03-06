@@ -21,7 +21,7 @@
 
         {
             "authors": "Omar Alrawi, Athanasios Avgetidis, Kevin Valakuzhy, Charles Lever, Paul Burbage, Angelos Keromytis, Fabian Monrose, and Manos Antonakakis",
-            "url": "",
+            "url": "papers/alwari23.pdf",
             "title": "Beyond the Gates: An Empirical Analysis of HTTP-managed password stealers and operators",
             "venue": "USENIX Security Symposium",
             "day": 16,
