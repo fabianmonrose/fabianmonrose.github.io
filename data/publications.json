@@ -1,6 +1,14 @@
 {"publications":
     [
-
+        {
+            "authors": "Mac Malone, Yicheng Wang and Fabian Monrose",
+            "url": "",
+            "title": "More Carrot or Less Stick: Organically Improving Student Time Management With Practice Tasks and Gamified Assignments",
+            "venue": "ACM conference on Innovation and Technology in Computer Science Education (ITiCSE)",
+            "day": 3,
+            "month": 7,
+            "year": 2023
+        },
         {
             "authors": "Mac Malone, Yicheng Wang and Fabian Monrose",
             "url": "",
