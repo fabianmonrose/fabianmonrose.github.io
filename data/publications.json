@@ -2,6 +2,15 @@
     [
 
         {
+            "authors": "Mac Malone and Fabian Monrose",
+            "url": "",
+            "title": "More Carrot or Less Stick: Organically Improving Student Time Management With Practice Tasks and Gamified Assignments",
+            "venue": "ACM Conference on Innovation and Technology in Computer Science Education",
+            "day": 2,
+            "month": 6,
+            "year": 2023
+        },
+        {
             "authors": "Mac Malone, Yicheng Wang and Fabian Monrose",
             "url": "",
             "title": "Securely Autograding Cybersecurity Exercises Using Web Accessible Jupyter Notebooks",
