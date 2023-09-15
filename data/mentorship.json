@@ -1,14 +1,32 @@
 {"mentorship":
     [
         {
+            "name": "Boo Fullwood",
+            "description": "PhD student",
+            "start": 2023,
+            "end": "now"
+        },
+        {
+            "name": "Vinny Adjibi",
+            "description": "PhD student (co-advised)",
+            "start": 2022,
+            "end": "now"
+        },
+        {
+            "name": "Kevin Valakuzhy",
+            "description": "PhD student (co-advised)",
+            "start": 2020,
+            "end": "now"
+        },
+        {
             "name": "Yufei Du",
-            "description": "PhD student at UNC",
+            "description": "PhD student",
             "start": 2020,
             "end": "now"
         },
         {
             "name": "Kedrian James",
-            "description": "PhD student at UNC",
+            "description": "PhD student (at UNC)",
             "start": 2018,
             "end": "now"
         },
@@ -31,12 +49,7 @@
             "start": 2020,
             "end": 2022
         },
-        {
-            "name": "Boo Fullwood",
-            "description": "Master's student at UNC",
-            "start": 2021,
-            "end": 2022
-        },
+
         {
             "name": "Srinivas Krishnan",
             "description": "Master's Student at UNC",
