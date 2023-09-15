@@ -32,61 +32,61 @@
         },
         {
             "name": "Mac Malone",
-            "description": "PhD student (at UNC)",
+            "description": "PhD student",
             "start": 2018,
             "end": 2023
         },
         {
             "name": "John Lim",
-            "description": "Master's student at UNC",
+            "description": "Master's student",
             "start": 2019,
             "end": 2021,
             "coadvisor": "Jan-Michael Frahm"
         },
         {
             "name": "Kevin Lane",
-            "description": "Master's student at UNC",
+            "description": "Master's student",
             "start": 2020,
             "end": 2022
         },
 
         {
             "name": "Srinivas Krishnan",
-            "description": "Master's Student at UNC",
+            "description": "Master's Student",
             "start": 2010,
             "end": 2014,
             "coadvisor": "Kevin Jeffay"
         },
         {
             "name": "Roman Rogowski",
-            "description": "Master's student at UNC",
+            "description": "Master's student",
             "start": 2015,
             "end": 2017
         },
         {
             "name": "Teryl Taylor",
-            "description": "Ph.D. student at UNC",
+            "description": "Ph.D. student",
             "start": 2012,
             "end": 2016,
             "url": "https://researcher.watson.ibm.com/researcher/view.php?person=ibm-terylt"
         },
         {
             "name": "Yi Xu",
-            "description": "Ph.D student at UNC",
+            "description": "Ph.D student",
             "start": 2016,
             "end": 2012,
             "coadvisor": "Jan-Michael Frahm"
         },
         {
             "name": "Andrew M. White",
-            "description": "PhD. student at UNC",
+            "description": "PhD. student",
             "start": 2010,
             "end": 2015,
             "url": "https://scholar.google.com/citations?user=OPmiOyUAAAAJ&hl=en"
         },
         {
             "name": "Kevin Z. Snow",
-            "description": "PhD. student at UNC",
+            "description": "PhD. student",
             "start": 2009,
             "end": 2014
         }

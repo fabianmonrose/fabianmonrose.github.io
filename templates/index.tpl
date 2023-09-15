@@ -275,7 +275,7 @@
             {% endfor %}
         </div>
 
-        <h2 id="mentorship">Advising</h2>
+        <h2 id="mentorship">Recent Advising (GT and UNC)</h2>
 
         <div class="block">
             {% for item in mentorship %}
