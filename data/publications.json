@@ -1,17 +1,17 @@
 {"publications":
     [
         {
-            "authors": "Mac Malone, Yicheng Wang and Fabian Monrose",
+            "authors": "Yufei Du, Omar Alwari, Kevin Snow, Manos Antonakakis and Fabian Monrose",
             "url": "",
-            "title": "More Carrot or Less Stick: Organically Improving Student Time Management With Practice Tasks and Gamified Assignments",
-            "venue": "ACM conference on Innovation and Technology in Computer Science Education (ITiCSE)",
-            "day": 3,
-            "month": 7,
+            "title": "Improving Security Tasks Using Compiler Provenance Information Recovered At the Binary-Level",
+            "venue": "ACM Conference on Computer and Communications Security",
+            "day": 26,
+            "month": 11,
             "year": 2023
         },
         {
             "authors": "Mac Malone and Fabian Monrose",
-            "url": "",
+            "url": "papers/carrot23.pdf",
             "title": "More Carrot or Less Stick: Organically Improving Student Time Management With Practice Tasks and Gamified Assignments",
             "venue": "ACM Conference on Innovation and Technology in Computer Science Education",
             "day": 2,
@@ -20,7 +20,7 @@
         },
         {
             "authors": "Mac Malone, Yicheng Wang and Fabian Monrose",
-            "url": "",
+            "url": "papers/autograding23.pdf",
             "title": "Securely Autograding Cybersecurity Exercises Using Web Accessible Jupyter Notebooks",
             "venue": "ACM SIGCSE Technical Symposium",
             "day": 2,
@@ -33,7 +33,7 @@
             "url": "papers/alwari23.pdf",
             "title": "Beyond the Gates: An Empirical Analysis of HTTP-managed password stealers and operators",
             "venue": "USENIX Security Symposium",
-            "day": 16,
+            "day": 10,
             "month": 8,
             "year": 2023
         },
