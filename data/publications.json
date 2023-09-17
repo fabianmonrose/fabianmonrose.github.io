@@ -10,6 +10,15 @@
             "year": 2023
         },
         {
+            "authors": "Zane Ma, Aaron Faulkenberry, Thomas Papastergiou, Zakir Durumeric, Michael D. Bailey, Angelos D. Keromytis, Fabian Monrose and Manos Antonakakis",
+            "url": "",
+            "title": "State TLS Certificates: Investigating Precarious Third-Party Access to Valid TLS Keys",
+            "venue": "ACM Internet Measurement Conference",
+            "day": 24,
+            "month": 10,
+            "year": 2023
+        },
+        {
             "authors": "Mac Malone and Fabian Monrose",
             "url": "papers/carrot23.pdf",
             "title": "More Carrot or Less Stick: Organically Improving Student Time Management With Practice Tasks and Gamified Assignments",
