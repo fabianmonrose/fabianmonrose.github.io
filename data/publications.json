@@ -2,7 +2,7 @@
     [
         {
             "authors": "Yufei Du, Omar Alwari, Kevin Snow, Manos Antonakakis and Fabian Monrose",
-            "url": "",
+            "url": "https://dl.acm.org/doi/10.1145/3576915.3623098",
             "title": "Improving Security Tasks Using Compiler Provenance Information Recovered At the Binary-Level",
             "venue": "ACM Conference on Computer and Communications Security",
             "day": 26,
@@ -11,8 +11,8 @@
         },
         {
             "authors": "Zane Ma, Aaron Faulkenberry, Thomas Papastergiou, Zakir Durumeric, Michael D. Bailey, Angelos D. Keromytis, Fabian Monrose and Manos Antonakakis",
-            "url": "",
-            "title": "State TLS Certificates: Investigating Precarious Third-Party Access to Valid TLS Keys",
+            "url": "https://dl.acm.org/doi/10.1145/3618257.3624802",
+            "title": "Stale TLS Certificates: Investigating Precarious Third-Party Access to Valid TLS Keys",
             "venue": "ACM Internet Measurement Conference",
             "day": 23,
             "month": 10,
