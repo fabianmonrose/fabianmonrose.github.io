@@ -1,6 +1,15 @@
 {"publications":
     [
         {
+            "authors": "Kedrian James, Kevin Valakuzhy, Kevin Snow, Fabian Monrose",
+            "url": "",
+            "title": "CrashTalk: Automated Generation of Precise, Human Readable, Descriptions of Software Security Bugs",
+            "venue": "ACM Conference on Data and Application Security and Privacy",
+            "day": 19,
+            "month": 6,
+            "year": 2024
+        },
+        {
             "authors": "Yufei Du, Omar Alwari, Kevin Snow, Manos Antonakakis and Fabian Monrose",
             "url": "https://dl.acm.org/doi/10.1145/3576915.3623098",
             "title": "Improving Security Tasks Using Compiler Provenance Information Recovered At the Binary-Level",
