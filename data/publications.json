@@ -1,6 +1,15 @@
 {"publications":
     [
         {
+            "authors": "Athanasios Moschos, Fabian Monrose and Angelos Keromytis",
+            "url": "",
+            "title": "Towards Practical Fabrication Stage Attacks Using Interrupt-Resilient Hardware Trojans",
+            "venue": "IEEE International Symposium on Hardware Oriented Security and Trust",
+            "day": 6,
+            "month": 5,
+            "year": 2024
+        },
+        {
             "authors": "Kedrian James, Kevin Valakuzhy, Kevin Snow, Fabian Monrose",
             "url": "",
             "title": "CrashTalk: Automated Generation of Precise, Human Readable, Descriptions of Software Security Bugs",
