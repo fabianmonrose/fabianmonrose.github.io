@@ -5,15 +5,15 @@
             "url": "",
             "title": "Towards Practical Fabrication Stage Attacks Using Interrupt-Resilient Hardware Trojans",
             "venue": "IEEE International Symposium on Hardware Oriented Security and Trust",
-            "day": 7,
-            "month": 5,
+            "day": 19,
+            "month": 6,
             "year": 2024
         },
         {
             "authors": "Kedrian James, Kevin Valakuzhy, Kevin Snow, Fabian Monrose",
             "url": "",
             "title": "CrashTalk: Automated Generation of Precise, Human Readable, Descriptions of Software Security Bugs",
-            "venue": "ACM Conference on Data and Application Security and Privacy (CODASPY)",
+            "venue": "ACM Conference on Data and Application Security and Privacy",
             "day": 19,
             "month": 6,
             "year": 2024
