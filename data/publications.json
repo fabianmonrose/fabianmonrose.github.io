@@ -1,6 +1,16 @@
 {"publications":
     [
         {
+            "authors": "Miuyin Yong, Matthew Landen, Frank Li, Fabian Monrose and Mustaque Ahamad",
+            "url": "",
+            "title": "Comparing Malware Evasion Theory with Practice: Results from Interviews with Expert Analysts",
+            "venue": "USENIX Symposium on Usable Privacy and Security (SOUPS)",
+            "day": 11,
+            "month": 8,
+            "year": 2024
+        },
+
+        {
             "authors": "Athanasios Moschos, Fabian Monrose and Angelos Keromytis",
             "url": "",
             "title": "Towards Practical Fabrication Stage Attacks Using Interrupt-Resilient Hardware Trojans",
