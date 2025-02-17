@@ -2,7 +2,7 @@
     [
         {
             "authors": "Boladji Vinny Adjibi, Athanasios Avgeditis, Manos Antonakakis, Michael Bailey and Fabian Monrose",
-            "url": "",
+            "url": "papers/guardians-ndss.pdf",
             "title": "The Guardians of Name Street: Studying the Defensive Registrations of the Fortune 500",
             "venue": "Network and Distributed System Security (NDSS) Symposium",
             "day": 24,
