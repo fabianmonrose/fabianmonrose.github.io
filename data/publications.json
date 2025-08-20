@@ -1,5 +1,36 @@
 {"publications":
     [
+        
+        {
+            "authors": "Boo Fullwood and Fabian Monrose",
+            "url": "",
+            "title": "Seeing is Believing: Interpreting Behavioral Changes in Audio Deepfake Detectors Arising from Data Augmentation",
+            "venue": "In 18th ACM Workshop on Artificial Intelligence and Security",
+            "day": 5,
+            "month": 10,
+            "year": 2025
+        },
+        
+        {
+            "authors": "Boladji Vinny Adjibi, Athanasios Avgeditis, Manos Antonakakis, Michael Bailey and Fabian Monrose",
+            "url": "",
+            "title": "From Concealment to Exposure: Understanding the Lifecycle and Infrastructure of APT Domains",
+            "venue": "International Symposium on Research in Attacks, Intrusions and Defenses (RAID)",
+            "day": 24,
+            "month": 10,
+            "year": 2025
+        },
+        
+        {
+            "authors": "Boladji Vinny Adjibi, Athanasios Avgeditis, Manos Antonakakis, Michael Bailey and Fabian Monrose",
+            "url": "",
+            "title": "RepairingTrustinDomainNameDisputesPractices:InsightsfromaQuarter-Century’s Worth of Squabbles",
+            "venue": "Network and Distributed System Security (NDSS) Symposium",
+            "day": 24,
+            "month": 2,
+            "year": 2026
+        },
+        
         {
             "authors": "Boladji Vinny Adjibi, Athanasios Avgeditis, Manos Antonakakis, Michael Bailey and Fabian Monrose",
             "url": "papers/guardians-ndss.pdf",
