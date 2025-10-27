@@ -12,7 +12,7 @@
         },
         
         {
-            "authors": "Boladji Vinny Adjibi, Athanasios Avgeditis, Manos Antonakakis, Michael Bailey and Fabian Monrose",
+            "authors": "Athanasios Avgetidis, Aaron Faulkenberry, Boladji Vinny Adjibi, Tillson Galloway, Panagiotis Kintis, Omar Alwari, Zane Ma,Fabian Monrose, Angelos D. Keromytis, Roberto Perdisci and Manos Antonakakis",
             "url": "papers/atropos.pdf",
             "title": "From Concealment to Exposure: Understanding the Lifecycle and Infrastructure of APT Domains",
             "venue": "International Symposium on Research in Attacks, Intrusions and Defenses (RAID)",
