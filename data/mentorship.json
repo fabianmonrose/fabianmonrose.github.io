@@ -7,15 +7,17 @@
             "end": "now"
         },
         {
-            "name": "<a href='https://boladjivinny.github.io/'>Vinny Adjibi</a>",
+            "name": "Vinny Adjibi",
             "description": "PhD student (co-advised)",
             "start": 2022,
+            "url": "https://boladjivinny.github.io/",
             "end": "now"
         },
         {
             "name": "Tillson Galloway",
             "description": "PhD student (co-advised)",
             "start": 2024,
+            "url": "https://tillsongalloway.com/",
             "end": "now"
         },
         {
