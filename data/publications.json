@@ -2,7 +2,7 @@
     [
         {
             "authors": "Tillson Galloway, Allen Chang, Omar Alrawi, Thanos Avgetidis, Manos Antonakakis and Fabian Monrose",
-            "url": "papers/vendor_sharing_ndss2026.pdf",
+            "url": "papers/vendor_sharing_ndss26.pdf",
             "title": "Actively Understanding the Dynamics and Risks of the Threat Intelligence Ecosystem",
             "venue": "Network and Distributed System Security (NDSS) Symposium",
             "day": 24,
