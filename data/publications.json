@@ -1,6 +1,14 @@
 {"publications":
     [
-        
+        {
+            "authors": "Tillson Galloway, Allen Chang, Omar Alrawi, Thanos Avgetidis, Manos Antonakakis and Fabian Monrose",
+            "url": "papers/vendor_sharing_ndss2026.pdf",
+            "title": "Actively Understanding the Dynamics and Risks of the Threat Intelligence Ecosystem",
+            "venue": "Network and Distributed System Security (NDSS) Symposium",
+            "day": 24,
+            "month": 2,
+            "year": 2026
+        },
         {
             "authors": "Boo Fullwood and Fabian Monrose",
             "url": "papers/Interpretable-aisec.pdf",
@@ -23,7 +31,7 @@
         
         {
             "authors": "Boladji Vinny Adjibi, Athanasios Avgeditis, Manos Antonakakis, Alberto Dainotti, Michael Bailey and Fabian Monrose",
-            "url": "papers/ndss2026.pdf",
+            "url": "papers/domain_disputes_ndss26.pdf",
             "title": "Repairing Trust in Domain Name Disputes Practices: Insights from a Quarter-Century’s  Worth of Squabbles",
             "venue": "Network and Distributed System Security (NDSS) Symposium",
             "day": 24,
