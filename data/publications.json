@@ -1,6 +1,15 @@
 {"publications":
     [
         {
+            "authors": "Boo Fullwood and Fabian Monrose",
+            "url": "",
+            "title": "Mind Your [M]s, Cross Your [T]s: A Large-scale Phonemic Analysis of Speech Production in Modern Speech Generators",
+            "venue": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP",
+            "day": 6,
+            "month": 5,
+            "year": 2026
+        },
+        {
             "authors": "Tillson Galloway, Allen Chang, Omar Alrawi, Thanos Avgetidis, Manos Antonakakis and Fabian Monrose",
             "url": "papers/vendor_sharing_ndss26.pdf",
             "title": "Actively Understanding the Dynamics and Risks of the Threat Intelligence Ecosystem",
