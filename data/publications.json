@@ -1,6 +1,15 @@
 {"publications":
     [
         {
+            "authors": "Kevin Valakuzhy, Miuyin Yong Wong,Doug Blough, Mustaque Ahamad and Fabian Monrose",
+            "url": "papers/Lumen26.pdf",
+            "title": "LUMEN: A Systems Approach to LLM-Guided Activation of Hidden Behaviors in Malware",
+            "venue": "International Conference on Dependable Systems and Networks (DSN)",
+            "day": 22,
+            "month": 6,
+            "year": 2026
+        },
+        {
             "authors": "Vinny Adjibi, Kathryn Kleiman, Michael D. Bailey and Fabian Monrose",
             "url": "papers/CostOfSilence.pdf",
             "title": "The Cost of Silence: Quantifying the Prejudice of Non-Participation in Domain Name Disputes",
