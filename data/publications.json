@@ -1,7 +1,16 @@
 {"publications":
     [
         {
-            "authors": "Kevin Valakuzhy, Miuyin Yong Wong,Doug Blough, Mustaque Ahamad and Fabian Monrose",
+            "authors": "Miuyin Yong Wong, Alan F. Luo, Yunze Zhao, Shubham Bhatnagar, Fabian Monrose and Michelle Mazurek",
+            "url": "",
+            "title": "The Impact of Emerging AI Practices on the Cybersecurity Workforce",
+            "venue": "USENIX Symposium On Usable Privacy and Security (SOUPS)",
+            "day": 23,
+            "month": 8,
+            "year": 2026
+        },
+        {
+            "authors": "Kevin Valakuzhy, Miuyin Yong Wong, Doug Blough, Mustaque Ahamad and Fabian Monrose",
             "url": "papers/Lumen26.pdf",
             "title": "LUMEN: A Systems Approach to LLM-Guided Activation of Hidden Behaviors in Malware",
             "venue": "International Conference on Dependable Systems and Networks (DSN)",
