@@ -1,0 +1,10 @@
+after creating classic access token (in developer settings), copy the new token.
+
+git config --global --unset user.password
+git config --global credential.helper osxkeychain
+
+username = fabianmonrose
+pwd = latest token in GitHub (scholarly)
+
+the credentials will be requested on next git command (commit, etc)
+

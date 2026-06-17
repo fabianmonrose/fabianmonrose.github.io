@@ -1,5 +1,36 @@
 {"publications":
     [
+        
+        {
+            "authors": "Kevin Valakuzhy, Miuyin Yong Wong, Omar Alrawi, Manos Antonakakis, Angelos D. Keromytis and Fabian Monrose",
+            "url": "",
+            "title": "BRAID: Uncovering Malware Family Relationships in Data-Scarce Settings",
+            "venue": "European Symposium on Research in Computer Security (ESORICS)",
+            "day": 10,
+            "month": 9,
+            "year": 2026
+        },
+        
+        {
+            "authors": "Evangelos Froudakis and Fabian Monrose",
+            "url": "",
+            "title": "HeartBreaker: Practical Attacks for Recovering Cryptographic Keys Derived from Biosignals",
+            "venue": "European Symposium on Research in Computer Security (ESORICS)",
+            "day": 10,
+            "month": 9,
+            "year": 2026
+        },
+        
+        {
+            "authors": "Tillson Galloway, Kevin Valakuzhy, Manos Antonakakis and Fabian Monrose",
+            "url": "",
+            "title": "Beyond the Stars: Multimodal Detection of Scams on GitHub",
+            "venue": "USENIX Security Symposium",
+            "day": 12,
+            "month": 8,
+            "year": 2026
+        },
+        
         {
             "authors": "Miuyin Yong Wong, Alan F. Luo, Yunze Zhao, Shubham Bhatnagar, Fabian Monrose and Michelle Mazurek",
             "url": "",
