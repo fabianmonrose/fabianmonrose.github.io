@@ -60,7 +60,7 @@
         },
         {
             "authors": "Yufei Du, Vasileios P. Kemerlis, Michalis Polychronakis and Fabian Monrose",
-            "url": "",
+            "url": "papers/sok-indirect-call.pdf",
             "title": "SoK: Multi-layer Indirect Call Analysis in the Real World",
             "venue": "USENIX WOOT Conference on Offensive Technologies",
             "day": 10,
