@@ -23,7 +23,7 @@
         
         {
             "authors": "Tillson Galloway, Kevin Valakuzhy, Manos Antonakakis and Fabian Monrose",
-            "url": "",
+            "url": "papers/usenix-octowatch.pdf",
             "title": "Beyond the Stars: Multimodal Detection of Scams on GitHub",
             "venue": "USENIX Security Symposium",
             "day": 12,
