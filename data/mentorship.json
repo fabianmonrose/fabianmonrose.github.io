@@ -1,100 +1,118 @@
 {"mentorship":
     [
         {
+            "name": "Lydia Han",
+            "description": "PhD",
+            "start": 2024,
+            "end": "now"
+        },
+        {
             "name": "Boo Fullwood",
-            "description": "PhD student",
+            "description": "PhD",
             "start": 2023,
             "end": "now"
         },
         {
+            "name": "Tillson Galloway",
+            "description": "PhD",
+            "start": 2023,
+            "url": "https://tillsongalloway.com/",
+            "end": "now"
+        },
+        {
             "name": "Vinny Adjibi",
-            "description": "PhD student (co-advised)",
+            "description": "PhD",
             "start": 2022,
             "url": "https://boladjivinny.github.io/",
             "end": "now"
         },
         {
-            "name": "Tillson Galloway",
-            "description": "PhD student (co-advised)",
-            "start": 2024,
-            "url": "https://tillsongalloway.com/",
-            "end": "now"
-        },
-        {
             "name": "Kevin Valakuzhy",
-            "description": "PhD student (co-advised)",
+            "description": "PhD",
             "start": 2022,
             "end": "now"
         },
         {
             "name": "Yufei Du",
-            "description": "PhD student",
+            "description": "PhD",
             "start": 2020,
             "end": "now"
         },
         {
             "name": "Kedrian James",
-            "description": "PhD student (at UNC)",
+            "description": "PhD",
             "start": 2018,
             "end": "now"
         },
         {
             "name": "Mac Malone",
-            "description": "PhD student",
+            "description": "PhD",
             "start": 2018,
             "end": 2023
         },
         {
             "name": "John Lim",
-            "description": "Master's student",
+            "description": "Masters",
             "start": 2019,
             "end": 2021,
             "coadvisor": "Jan-Michael Frahm"
         },
         {
             "name": "Kevin Lane",
-            "description": "Master's student",
+            "description": "Masters",
             "start": 2020,
             "end": 2022
         },
 
         {
             "name": "Srinivas Krishnan",
-            "description": "Master's Student",
+            "description": "PhD, (Abd)",
             "start": 2010,
             "end": 2014,
             "coadvisor": "Kevin Jeffay"
         },
         {
+            "name": "Micah Moreton",
+            "description": "Masters",
+            "start": 2015,
+            "end": 2017
+        },
+        {
             "name": "Roman Rogowski",
-            "description": "Master's student",
+            "description": "Masters",
             "start": 2015,
             "end": 2017
         },
         {
             "name": "Teryl Taylor",
-            "description": "Ph.D. student",
+            "description": "PhD",
             "start": 2012,
             "end": 2016,
             "url": "https://researcher.watson.ibm.com/researcher/view.php?person=ibm-terylt"
         },
         {
             "name": "Yi Xu",
-            "description": "Ph.D student",
+            "description": "PhD",
             "start": 2016,
             "end": 2012,
             "coadvisor": "Jan-Michael Frahm"
         },
         {
             "name": "Andrew M. White",
-            "description": "PhD. student",
+            "description": "PhD",
             "start": 2010,
             "end": 2015,
             "url": "https://scholar.google.com/citations?user=OPmiOyUAAAAJ&hl=en"
         },
         {
+            "name": "Rob Dallara",
+            "description": "Masters",
+            "start": 2014,
+            "end": 2015
+        },
+        {
             "name": "Kevin Z. Snow",
-            "description": "PhD. student",
+            "description": "PhD",
             "start": 2009,
             "end": 2014
         }

@@ -1,6 +1,30 @@
 {"committees":
     [
         {
+            "name": "Aaron Faulkenberry",
+            "location": "GaTech, GA",
+            "start": 2023,
+            "end": 2025
+        },
+        {
+            "name": "Athanasios Avgetidis",
+            "location": "GaTech, GA",
+            "start": 2023,
+            "end": 2025
+        },
+        {
+            "name": "Miuyin M. Wong",
+            "location": "GaTech, GA",
+            "start": 2022,
+            "end": 2024
+        },
+        {
+            "name": "Kevin Hutto",
+            "location": "GaTech, GA",
+            "start": 2023,
+            "end": 2024
+        },
+        {
             "name": "Omar Alwari",
             "location": "GaTech, GA",
             "start": 2019,
