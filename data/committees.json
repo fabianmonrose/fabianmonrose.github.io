@@ -15,6 +15,7 @@
         {
             "name": "Miuyin M. Wong",
             "location": "GaTech, GA",
+            "url":"https://www.umiacs.umd.edu/our-experts/postdoctoral-fellows/miuyin-yong-wong",
             "start": 2022,
             "end": 2024
         },
@@ -27,18 +28,21 @@
         {
             "name": "Omar Alwari",
             "location": "GaTech, GA",
+            "url":"https://alrawi.io/",
             "start": 2019,
             "end": 2021
         },
         {
             "name": "Salman Ahmed",
             "location": "Virginia Tech, VA",
+            "url":"https://salmanyam.github.io/",
             "start": 2019,
             "end": 2021
         },
         {
             "name": "Tapti Palit",
             "location": "Stony Brook University, NY",
+            "url":"https://cs.ucdavis.edu/people/tapti-palit",
             "start": 2018,
             "end": 2021
         },
@@ -51,6 +55,7 @@
         {
             "name": "Adrian Tang",
             "location": "Columbia University, NY",
+            "url":"https://0x0atang.github.io/",
             "start": 2016,
             "end": 2018
         },
