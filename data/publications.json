@@ -3,7 +3,7 @@
         
         {
             "authors": "Kevin Valakuzhy, Miuyin Yong Wong, Omar Alrawi, Manos Antonakakis, Angelos D. Keromytis and Fabian Monrose",
-            "url": "",
+            "url": "papers/braid_esorics2026.pdf",
             "title": "BRAID: Uncovering Malware Family Relationships in Data-Scarce Settings",
             "venue": "European Symposium on Research in Computer Security (ESORICS)",
             "day": 10,
@@ -13,7 +13,7 @@
         
         {
             "authors": "Evangelos Froudakis and Fabian Monrose",
-            "url": "",
+            "url": "papers/biosignals_esorics2026.pdf",
             "title": "HeartBreaker: Practical Attacks for Recovering Cryptographic Keys Derived from Biosignals",
             "venue": "European Symposium on Research in Computer Security (ESORICS)",
             "day": 10,
@@ -33,7 +33,7 @@
         
         {
             "authors": "Miuyin Yong Wong, Alan F. Luo, Yunze Zhao, Shubham Bhatnagar, Fabian Monrose and Michelle Mazurek",
-            "url": "",
+            "url": "papers/soups2026.pdf",
             "title": "The Impact of Emerging AI Practices on the Cybersecurity Workforce",
             "venue": "USENIX Symposium On Usable Privacy and Security (SOUPS)",
             "day": 23,
