@@ -7,6 +7,14 @@
             "end": 2025
         },
         {
+            "name": "Andrew Reed",
+            "location": "UNC Chapel Hill, NC",
+            "url":"https://andrewreed.io/",
+            "start": 2019,
+            "end": 2025
+        },
+        
+        {
             "name": "Athanasios Avgetidis",
             "location": "GaTech, GA",
             "url":"https://scholar.google.com/citations?user=Hq4Tn80AAAAJ&hl=en",
@@ -50,6 +58,7 @@
         {
             "name": "Calvin Deutschbein",
             "location": "University of North Carolina, Chapel Hill",
+            "url":"https://cd-public.github.io/",
             "start": 2019,
             "end": 2021
         },
