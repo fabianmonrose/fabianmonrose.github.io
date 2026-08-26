@@ -1,5 +1,15 @@
 {"publications":
     [
+        {
+            "authors": "Wuqiong Han, Amogh Palasamudram, Boo Fullwood and Fabian Monrose",
+            "url": "papers/deepfake-dff26.pdf",
+            "title": "Acoustic Microcues: Breath and Phoneme-Level Signals for Detecting Audio Deepfakes",
+            "venue": "Deepfake Forensics Workshop: Detection, Attribution, Recognition, and Adversarial Challenges in the Era of AI-Generated Media",
+            "day": 10,
+            "month": 11,
+            "year": 2026
+        },
+        
         
         {
             "authors": "Kevin Valakuzhy, Miuyin Yong Wong, Omar Alrawi, Manos Antonakakis, Angelos D. Keromytis and Fabian Monrose",
