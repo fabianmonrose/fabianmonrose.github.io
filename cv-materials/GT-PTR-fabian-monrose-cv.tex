@@ -1,0 +1,1361 @@
+
+\documentclass[11pt]{article}
+
+\usepackage{newpxtext,newpxmath}
+\bibliographystyle{acm}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\usepackage{geometry}
+\usepackage{enumitem}
+% Compact publication topic tags.
+\usepackage{xcolor}
+\newcommand{\pubtag}[1]{%
+  \begingroup
+  \setlength{\fboxsep}{1.2pt}%
+  \colorbox{gray!15}{\footnotesize\strut #1}%
+  \endgroup
+}
+\newcommand{\tagsep}{\hspace{0.35em}}
+
+%\setlength{\textwidth}{480pt}
+%\setlength{\textheight}{9.5in}
+
+\geometry{verbose,letterpaper,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+
+%\hoffset=-5pt
+\newfont{\sfb}{cmssbx10} %-- 10pt sans serif bold
+
+\newcommand{\ignore}[1]{}
+\renewcommand{\headrulewidth}{0pt}
+
+\pagestyle{fancy}
+\setlength{\headheight}{14pt}
+
+\newcommand{\alignboth}[2]{\noindent \parbox[t]{85pt} {\bf#1} \parbox[t]{400pt}{#2} \vspace{0.5\baselineskip} }
+%%%%%% Use align both to enter a heading (left column) and first item under heading (right column)
+\newcommand{\alignright}[1]{\noindent \parbox[t]{85pt} {\hspace{79pt}} \parbox[t]{400pt}{#1} \vspace{0.5\baselineskip} }
+%%%%%% Use align right to enter a second item under the same heading
+\newcommand{\headingsgap}{\vspace{\baselineskip}}
+%%%%%% Use headingsgap to add extra space after the last item of a heading
+\newcommand{\bibgap}{\vspace{0.3\baselineskip}}
+%%%%%% Use bibgap to add extra space between bibliography entries. they have less weight then regular entries
+%%%%%% due to the lack of bold face text, and need extra space to stand out.
+
+\setlist[itemize]{leftmargin=1.35em,itemsep=0.25em,topsep=0.25em,parsep=0pt}
+
+\newenvironment{cvhanglist}{%
+  \begin{list}{}{%
+    \setlength{\leftmargin}{1.8em}%
+    \setlength{\itemindent}{-1.8em}%
+    \setlength{\labelwidth}{0pt}%
+    \setlength{\labelsep}{0pt}%
+    \setlength{\itemsep}{0.35em}%
+    \setlength{\parsep}{0pt}%
+    \setlength{\topsep}{0.25em}%
+  }%
+}{\end{list}}
+
+\begin{document}
+
+\thispagestyle{empty}
+\cfoot[\fancyplain{}{\smed\leftmark}]{\fancyplain{}{{\sfb Fabian Monrose} ~~~~~ \hfill page \sfb\thepage}}
+
+
+\begin{center}
+{\LARGE\bfseries Newman Fabian Monrose} \\
+Julian T. Hightower Chair \hfill \\
+School of Electrical and Computer Engineering \hfill \\
+
+\end{center}
+
+\hrule
+\vspace{1\baselineskip}
+
+%\alignboth{Research \\ Interests}{
+%Applied research particularly in the areas of network security, user authentication, electronic commerce and biometrics. I am also interested in network operating systems and Internet platforms for supporting next-generation computing.}
+%\headingsgap
+
+\alignboth{[I]~Degrees}{{\bf Ph.~D., Computer Science,} \hfill \hfill \hfill
+\hfill \hfill \hfill \hfill \hfill {\it Courant Institute of Mathematical Sciences} \\ New York University, \ New York, USA \hfill \hfill \hfill May, 1999\\
+{\it Advisor}: Prof. Zvi Kedem}
+
+\alignright{{\bf M.~Sc., Computer Science,} \hfill \hfill \hfill \hfill \hfill \hfill \hfill
+{\it \hfill Courant Institute of Mathematical Sciences} \\ New York University, \ New York, USA \hfill \hfill \hfill May, 1996}
+
+\alignright{{\bf B.~Sc., Computer Science, \hfill \hfill \hfill \hfill \hfill} \hfill \hfill \hfill \hfill \hfill \hfill {\it Barry \ University} \\ \hfill\hfill Miami, \ Florida, USA \hfill May, 1993}
+\headingsgap
+
+\alignboth{\bf [II]~History}{{\sc Julian T. Hightower Chaired Professor}, \hfill{\it Georgia Tech} \\ College of Engineering, \hfill August 2022 --- present}
+
+\alignright{{\sc Kenan Distinguished Professor}, \hfill{\it University of North Carolina, Chapel Hill} \\ Computer Science Department, \hfill July 2017 --- July 2022}
+
+\alignright{{\sc Co-Founder}, \hfill {\it Zeropoint Dynamics} \\ Role: Chief Scientist, \hfill
+ \hfill March 2015 --- 2022}
+
+\alignright{{\sc Dir., Computer \& Information Security} \hfill {\it Renaissance Computing Institute}
+ \\Joint appointment with UNC-CH Comp. Sci. \hfill January 2014 --- 2018
+}
+
+\alignright{{\sc Professor,} \hfill {\it University of North Carolina, Chapel Hill}
+	\\ { Computer Science Department}, \hfill January 2013 --- present
+}
+
+\alignright{{\sc Associate Professor,} \hfill {\it University of North Carolina, Chapel Hill}
+	\\ { Computer Science Department}, \hfill July 2008 --- December, 2012
+}
+
+\alignright{{\sc Associate Professor,} \hfill {\it Johns Hopkins University}
+	\\ { Computer Science Department}, \hfill July 2007 ---June 2008
+}
+
+\alignright{{\sc Assistant Professor,} \hfill {\it Johns Hopkins University}
+	\\ { Computer Science Department}, \hfill November 2002 --- June 2007
+}
+
+%\headingsgap
+
+\alignright{{\sc Research Scientist,} \hfill {\it Bell Laboratories, Lucent Technologies}\\
+	{ Secure Systems Research}, \hfill July 1999 --- October 2002
+\ignore{
+ \begin{cvhanglist}
+ \item{
+Conducted research on a myriad of topics in applied security including mobile code security, the generation of cryptographic keys from biometrics, web privacy, electronic commerce, and countermeasures for distributed denial of service attacks.
+ }
+	\end{cvhanglist}}
+}
+
+\headingsgap
+\alignboth{[III]~Honors}{$\bullet\:\: $Distinguished Reviewer, {\it ACM CCS Symposium}, \hfill Fall, 2025\\}
+\alignright{$\bullet\:\: $CIOS Honor Roll, {\it Center for Teaching and Learning}, \hfill Fall, 2023}
+\alignright{$\bullet\:\:$CSSA Graduate Teaching Award, {\it CS Department}, \hfill May, 2021}
+\alignright{$\bullet\:\: $Undergraduate Students Teaching Award, {\it CS Department},\hfill May, 2015}
+\alignright{$\bullet\:\: $Best Student Paper Award, {\it IEEE Symposium on Security \& Privacy} \hfill May, 2013}
+\alignright{$\bullet\:\: $Outstanding Research in {\it Privacy Enhancing Technologies} (PET), \hfill July, 2012}
+\alignright{$\bullet\:\:$AT\&T Best Applied Security Paper Award, {\it NYU-Poly CSAW}, \hfill Nov, 2011}
+\alignright{$\bullet\:\:$Best Paper Award, {\it IEEE Symposium on Security \& Privacy}, \hfill May, 2011}
+\alignright{$\bullet\:\:$Best Paper Award, {\it Intl. Conf. on Internet Monitoring and Protection}, \hfill April, 2011}
+\alignright{$\bullet\:\:$Faculty Research Award, {\it Google} \hfill May, 2011}
+\ignore{
+\bibgap
+\alignright{$\bullet\:\:$Faculty Research Award, {\it Google} \hfill March, 2009}
+\bibgap
+\alignright{$\bullet\:\:$CAREER Award, {\it National Science Foundation}, \hfill February, 2006}
+\bibgap
+\alignright{$\bullet\:\:$Best Student Paper Award, {\it $8^{th}$ USENIX Security Symposium} \hfill August, 1999}
+\bibgap
+\alignright{$\bullet\:\:$Best Overall Paper Award, {\it $8^{th}$ USENIX Security Symposium} \hfill August, 1999}
+\bibgap
+\alignright{$\bullet\:\:$USENIX Scholars Research Award \hfill Fall 1998}
+}
+%\alignright{$\bullet\:\:$Bell Communications Research Scholarship \hfill Fall 1997}
+
+%\alignboth{\bf Teaching \\ Experience}{{\bf JHU, {\it new course offering}} \\ \textsc{\/Advanced Topics in Network Security,\/} \hfill Spring, 2004---2006 \\ \\ The course exposes students to a number of advanced research topics in Communications Security. Topics include multi-level traffic classification, payload attribution schemes, anonymous routing, multicast and broadcast authentication, secure overlays, inter-domain routing security, covert channels, secure and efficient metering, among others. Student projects stemming from this course have resulted in research papers accepted to peer reviewed conferences and workshops, theses, MSe and Masters in Security Informatics (MSSI) qualifying projects.
+%}
+
+%\alignright{{\bf JHU, {\it new course offering}} \\ \textsc{\/ Network Security, \/} \hfill Fall, 2003---2007 \\ \\ This course focuses on several practically-oriented topics in Network Security, including analysis of protocols, traffic monitoring, anonymity and privacy, DDoS and packet identification, secure routing and naming services, and Web security. A unique aspect of the course is the implementation and evaluation of security proposals within the context of a processor-based event-driven simulator, called {\it Simnet}, written specifically for this course.}
+
+%\alignright{{\bf JHU, {\it new course offering}}\\ \textsc{ Computer and Network Forensics, }\hfill Spring, 2007 \\ \\ The course exposes students to a myriad of fundamental concepts and techniques for recovering and inferring information in computer systems and networks. Topics include file system forensics, kernel-level rootkits, reconstructing malware evolution and dynamics, analysis of anonymization and privacy preserving techniques, advanced network traceback, biometrics and digital evidence, data integrity and audit trails, secure remote logging, and system call introspection.
+%}
+
+%\alignright{
+%{\bf JHU} \\ \textsc {M\&Ms: Freshman Experience, } \hfill Nov-Dec. 2006; Oct-Nov. 2007 \\ \\Students are exposed to the discipline through vignettes of logic and algebra, computer systems and networks, algorithms, programming languages, computation theory, and selected applications.
+%}
+
+%\bibgap
+
+%\eject
+
+
+\alignboth{[IV]~Scholarship ({\it \underline{last 15 yrs only}})}
+{}
+\begin{cvhanglist}
+%\setcounter{Ccount}{\value{Ucount}}
+
+\item{~{\bf Submitted Articles}}
+\begin{itemize}
+\item \emph{Beyond Reach: Measuring Threat Intelligence Gaps on Shared Domain Hosting Platforms*}. \textbf{Tillson Galloway}, Evangelos Froudakis  and Fabian Monrose. Submitted to ACM Web Conference, October, 2026
+
+{\small\pubtag{Measurement}\tagsep\pubtag{Systems Security}\tagsep\pubtag{AI/ML}}
+
+
+\item \emph{What Typos Don't Explain: An Empirical Study of Queries of Non-Existent Domain Names*}. \textbf{Boladji Vinny Adjibi}, Michael Bailey, and Fabian Monrose. Submitted to ACM Web Conference, October, 2026.
+
+{\small\pubtag{Measurement}\tagsep\pubtag{AI/ML}\tagsep\pubtag{Human Factors}}
+
+
+\item \emph{Beyond Detection: Source Attribution of Synthetic Speech using Multilabel Classifier Chains*}. \textbf{Boo Fullwood} and Fabian Monrose. Submitted to IEEE International Conference on Acoustics, Speech, and Signnal Processing, Sept, 2026.
+
+{\small\pubtag{AI/ML}\tagsep\pubtag{Forensics}\tagsep\pubtag{Systems Security}}
+
+
+\item \emph{Exploiting Software-level Abstractions to Support Practical Hardware Trojan Attacks*}.  Athanasios Moschos, Georgios Kokolakis, \textbf{Kevin Valakuzhy}, Fabian Monrose and Angelos Keromytis. ePrint: arXiv 2609.23173, September, 2026. Under revision for submission to IEEE European Symposium on Security and Privacy, Nov. 2027. 
+
+{\small\pubtag{Hardware}\tagsep\pubtag{Systems Security}\tagsep\pubtag{Side Channels}}
+
+
+\end{itemize}
+\headingsgap
+\item{{\bf Published and Accepted Articles}}
+\begin{itemize}
+
+\item \emph{Acoustic Microcues: Breath and Phoneme-Level Signals for Unmasking Audio Deepfakes*}. \textbf{Lydia  Han, Amogh Palasamudram, Boo Fullwood},  Fabian Monrose.  Deepfake Forensics Workshop: Detection, Attribution, Recognition, and Adversarial Challenges in the Era of AI-Generated Media, November, 2026.
+{\small\pubtag{Biometrics}\tagsep\pubtag{AI/ML}\tagsep\pubtag{Forensics}}
+
+\item \emph{BRAID: Uncovering Malware Family Relationships in Data-Scarce Settings*}. \textbf{Kevin Valakuzhy}, Miuyin Yong Wong, Omar Alrawi, Manos Antonakakis, Angelos D. Keromytis and Fabian Monrose. European Symposium on Research in Computer Security (ESORICS), September, 2026.
+
+{\small\pubtag{Malware}\tagsep\pubtag{Systems Security}\tagsep\pubtag{Forensics}}
+
+
+\item \emph{HeartBreaker: Practical Attacks for Recovering Cryptographic Keys Derived from Biosignals*}. {Evangelos Froudakis and Fabian Monrose}. European Symposium on Research in Computer Security (ESORICS), September, 2026.
+
+{\small\pubtag{Privacy}\tagsep\pubtag{Biometrics}\tagsep\pubtag{AI/ML}}
+
+
+\item \emph{The Impact of Emerging AI Practices on the Cybersecurity Workforce}. Miuyin Wong, Alan F. Luo, Yunzhe Zhao, \textbf{Fabian Monrose}, and Michelle Mazurek. USENIX Symposium on Usable Privacy and Security (SOUPS), August, 2026.
+
+{\small\pubtag{Human Factors}\tagsep\pubtag{Privacy}\tagsep\pubtag{Policy}}
+
+
+\item \emph{Beyond the Stars: Multimodal Detection of Scams on GitHub*}. \textbf{Tillson Galloway, Kevin Valakuzhy}, Manos Antonakakis and Fabian Monrose. USENIX Security Symposium, August, 2026.
+
+{\small\pubtag{Supply Chain}\tagsep\pubtag{Systems Security}\tagsep\pubtag{AI/ML}}
+
+
+\item \emph{SoK: Multi-Layer Indirect Call Analysis in the Real World*}. \textbf{Yufei Du}, Vasileios P. Kemerlis, Michalis Polychronakis and {Fabian Monrose}. USENIX WOOT Conference on Offensive Technologies, August, 2026.
+
+{\small\pubtag{Program Analysis}\tagsep\pubtag{Systems Security}\tagsep\pubtag{Software Systems}}
+
+
+\item \emph{The Cost of Silence: Quantifying the Prejudice of Non-Participation in Domain Name Disputes*}. \textbf{Boladji Vinny Adjibi}, Kathryn Kleiman, Michael Bailey, and {Fabian Monrose}. Int. Conference on Artificial Intelligence and Law (ICAIL), June, 2026.
+
+{\small\pubtag{Policy}\tagsep\pubtag{Measurement}\tagsep\pubtag{AI/ML}}
+
+
+\item \emph{LUMEN: A Systems Approach to LLM-Guided Activation of Hidden Behaviors in Malware*}. \textbf{Kevin Valakuzhy}, Miuyin Yong Wong, Doug Blough, Mustaque Ahamad and {Fabian Monrose}. International Conference on Dependable Systems and Networks (DSN), June, 2026.
+
+{\small\pubtag{Systems Security}\tagsep\pubtag{Malware}\tagsep\pubtag{Forensics}}
+
+
+\item \emph{Mind Your [M]s, Cross Your [T]s: A large-scale Phonemic Analysis of Speech Reproduction in Modern Speech Generators*.} \textbf{Boo Fullwood} and {Fabian Monrose}. IEEE Conference on Acoustics, Speech and Signal Processing (ICASSP), May 2026.
+
+{\small\pubtag{Acoustics}\tagsep\pubtag{Privacy}\tagsep\pubtag{AI/ML}}
+
+
+\item \emph{Actively Understanding the Dynamics and Risks of the Threat Intelligence Ecosystem*}. \textbf{Tillson Galloway, Allen Chang}, Omar Alrawi, Thanos Avgetidis, Manos Antonakakis and {Fabian Monrose}. Network and Distributed System Security (NDSS) Symposium, Feb 2026.
+
+{\small\pubtag{Measurement}\tagsep\pubtag{Supply Chain}\tagsep\pubtag{Systems Security}}
+
+
+\item \emph{Repairing Trust in Domain Name Disputes Practices: Insights from a Quarter-Century's Worth of Squabbles*.} \textbf{Boladji Vinny Adjibi}, Athanasios Avgeditis, Manos Antonakakis, Alberto Dainotti, Michael Bailey and {Fabian Monrose}. Network and Distributed System Security (NDSS) Symposium, Feb 2026.
+
+{\small\pubtag{Policy}\tagsep\pubtag{Measurement}\tagsep\pubtag{AI/ML}}
+
+
+
+\item \emph{From Concealment to Exposure: Understanding the Lifecycle and Infrastructure of APT Domains*}. Athanasios Avgetidis, \textbf{Boladji Vinny Adjibi}, Panagiotis Kintis, \textbf{Tillson Galloway}, Zane Ma, Omar Alrawi, Manos Antonakakis, Roberto Perdisci, {Fabian Monrose} and Angelos Keromytis. International Symposium on Research in Attacks, Intrusions and Defenses, October, 2025.
+
+{\small\pubtag{Measurement}\tagsep\pubtag{Systems Security}\tagsep\pubtag{AI/ML}}
+
+
+\item \emph{The Guardian of Name Street: Studying Defensive Registrations for the Fortune 500*}. \textbf{Boladji Vinny Adjibi}, Athanasios Avgetidis, Michael Bailey, Manos Antonakakis and {Fabian Monrose}. In Network and Distributed Systems Security (NDSS), Feb. 2025.
+
+{\small\pubtag{Measurement}\tagsep\pubtag{System Security}\tagsep\pubtag{AI/ML}}
+
+
+\item \emph{Seeing is Believing: Interpreting Behavioral Changes in Audio Deepfake Detectors Arising from Data Augmentation*}. \textbf{Boo Fullwood} and {Fabian Monrose}. In 18th ACM Workshop on Artificial Intelligence and Security, October, 2025.
+
+{\small\pubtag{AI/ML}\tagsep\pubtag{Forensics}\tagsep\pubtag{System Security}}
+
+
+\item \emph{Understanding LLMs Ability to Aid Malware Analysts in Bypassing Evasion Techniques*}. Miuyin Wong, \textbf{Kevin Valakuzhy}, Mustaque Ahamad, Douglas M. Blough, and {Fabian Monrose}. In International Conference on Multimodal Interaction (ICMI), 2024.
+
+{\small\pubtag{Malware}\tagsep\pubtag{AI/ML}\tagsep\pubtag{Forensics}}
+
+
+\item \emph{Contrasting Theory to Practice: Results from Interviews with Expert Malware Analysts*}. Miuyin Wong, Matthew Landen, Frank Li, {Fabian Monrose} and Mustaque Ahamad. In USENIX Symposium on Usable Privacy and Security (SOUPS), August, 2024.
+
+{\small\pubtag{Human Factors}\tagsep\pubtag{Malware}\tagsep\pubtag{Policy}}
+
+
+\item \emph{CrashTalk: Automated Generation of Precise, Human
+Readable, Descriptions of Software Security Bugs*}. Kedrian James, \textbf{Kevin Valakuzhy}, Kevin Snow and {Fabian Monrose}. In ACM Conference and Computer and Data Security (CODASPY), June, 2024.
+
+{\small\pubtag{Malware}\tagsep\pubtag{Systems Security}\tagsep\pubtag{Measurement}}
+
+
+\item \emph{Towards Practical Fabrication Stage Attacks
+Using Interrupt-Resilient Hardware Trojans*}. Athanasios Moschos, {Fabian Monrose} and Angelos Keromytis. In IEEE Int. Symposium on Hardware Oriented Security and Trust (HOST), May, 2024.
+
+{\small\pubtag{Hardware}\tagsep\pubtag{Systems Security}\tagsep\pubtag{Program Analysis}}
+
+
+\item \emph{Improving Security Tasks Using Compiler Provenance Information Recovered At the Binary-Level*}. \textbf{Yufei Du}, Omar Alwari, Kevin Snow, Manos Antonakakis and {Fabian Monrose}. In ACM Conference on Computer and Communications Security (CCS), November, 2023.
+
+{\small\pubtag{Program Analysis}\tagsep\pubtag{Forensics}\tagsep\pubtag{Measurement}}
+
+
+\item \emph{Stale TLS Certificates: Investigating Precarious Third-Party Access to Valid TLS Keys*}. Zane Ma, Aaron Faulkenberry, Thomas Papastergiou, Zakir Durumeric, Michael D. Bailey, Angelos D. Keromytis, {Fabian Monrose} and Manos Antonakakis. In Proceedings of ACM Internet Measurement Conference (IMC), Oct, 2023.
+
+{\small\pubtag{Measurement}\tagsep\pubtag{Networks}\tagsep\pubtag{System Security}}
+
+
+\item \emph{More Carrot or Less Stick: Organically Improving Student Time Management With Practice Tasks and Gamified Assignments}. Mac Malone and {Fabian Monrose}. In Proceedings of ACM Conference on Innovation and Technology In Computer Science Education, July, 2023.
+
+{\small\pubtag{Education}\tagsep\pubtag{Systems Security}\tagsep\pubtag{Human Factors}}
+
+
+\item \emph{Securely Autograding Cybersecurity Exercises Using Web Accessible Jupyter Notebooks}. Mac Malone, Yicheng Wang and {Fabian Monrose}. In Proceedings of ACM SIGCSE Technical Symposium, March, 2023.
+
+{\small\pubtag{Education}\tagsep\pubtag{Measurement}\tagsep\pubtag{Human Factors}}
+
+
+\item \emph{Beyond the Gates: An Empirical Analysis of HTTP-managed password stealers and operators*}. Omar Alrawi, Athanasios Avgetidis, \textbf{Kevin Valakuzhy}, Charles Lever, Paul Burbage, Angelos Keromytis, {Fabian Monrose}, and Manos Antonakakis.
+In Proceedings of the USENIX Security Symposium, August 2023.
+
+{\small\pubtag{Forensics}\tagsep\pubtag{Privacy}\tagsep\pubtag{Measurement}}
+
+
+\item \emph{View from Above: Exploring the Malware Ecosystem from the
+ Upper DNS Hierarchy*}. Aaron Faulkenberry, Athanasios Avgetidis, Zane Ma, Omar Alrawi, Charles Lever, Panagiotis Kintis, {Fabian Monrose}, Angelos Keromytis, and Manos Antonakakis. In Proceedings of the Annual Computer Security Applications Conference (ACSAC), Dec 2022.
+
+{\small\pubtag{Measurement}\tagsep\pubtag{Malware}\tagsep\pubtag{Forensics}}
+
+
+
+\item \emph{Automatic Recovery of Fine-grained Compiler Provenance Information at the Binary Level}.  \textbf{Yufei Du}, Ryan Court, Kevin Z. Snow and \textbf{Fabian Monrose}. USENIX Annual Technical Conference, July, 2022.
+
+{\small\pubtag{Program Analysis}\tagsep\pubtag{Forensics}\tagsep\pubtag{Measurement}}
+
+
+\item \emph{Disentangling Style and Content for Low Resource Video Domain Adaptation: A Case Study on Keystroke Inference Attacks}. John Lim, Jan-Michael Frahm and {Fabian Monrose}. In ACM Conference on Data and Application Security (CODASPY), April, 2022.
+
+{\small\pubtag{Biometrics}\tagsep\pubtag{System Security}\tagsep\pubtag{Privacy}}
+
+
+\item \emph{An Online Gamified Learning Platform for Teaching Cybersecurity and More}. Mac Malone, Yicheng Wang and f{Fabian Monrose}. ACM Annual
+Conference on IT Education, October, 2021.
+
+{\small\pubtag{Education}\tagsep\pubtag{Human Factors}\tagsep\pubtag{AI/ML}}
+
+
+\item \emph{DynPTA: Combining Static and Dynamic Analysis for
+ Practical Selective Data Protection}. Tapti Palit, Jarin Firose Moon, {Fabian Monrose} and
+ Michalis Polychronakis. In Proceedings of the IEEE Symposium on Security and Privacy, May, 2021.
+
+{\small\pubtag{Software Security}\tagsep\pubtag{Systems Security}\tagsep\pubtag{Measurement}}
+
+
+\item \emph{Applicable Micropatches and Where to Find Them: Finding and Applying New Security Hot Fixes to Old Software}. Mac Malone, Yicheng Wang, Kevin Snow and {Fabian Monrose}. IEEE International Conference on Software Testing, Verification and Validation, April, 2021.
+
+{\small\pubtag{Systems Security}\tagsep\pubtag{Measurement}\tagsep\pubtag{AI/ML}}
+
+
+\item \emph{The Circle Of Life: A Large-Scale Study of The IoT Malware
+ Lifecycle*}. Omar Alrawi, Charles Lever, \textbf{Kevin Valakuzhy}, Ryan Court, Kevin Snow, {Fabian Monrose} and Manos Antonakakis. USENIX Security Symposium, August, 2021.
+
+{\small\pubtag{Measurement}\tagsep\pubtag{Malware}\tagsep\pubtag{Forensics}}
+
+
+\item \emph{To Gamify or Not? On Leaderboard Effects, Student Engagement, and Learning outcomes in a Cybersecurity Intervention}. Mac Malone, Yicheng Wang, Kedrian James, Murray Anderegg, Jan Werner and {Fabian Monrose}. ACM SIGCSE Technical Symposium, 2021.
+
+{\small\pubtag{Education}\tagsep\pubtag{Human Factors}\tagsep\pubtag{System Security}}
+
+
+\item \emph{A Flexible Framework for Expediting Bug Findings by Leveraging Past (Mis-)Behavior to Discover New Bugs}. Sanjeev Das, Kedrian James, Jan Werner, Manos Antonakakis, Michalis Polychronakis and {Fabian Monrose}. ACM Annual Computer Security Applications Conference (ACSAC), December 2020.
+
+{\small\pubtag{Systems Security}\tagsep\pubtag{Measurement}\tagsep\pubtag{Forensics}}
+
+
+\item \emph{Methodologies for Quantifying (Re-)randomization Security and
+ Timing under JIT-ROP}. Md Salman Ahmed, Ya Xiao, Kevin Z. Snow, Gang Tan, {Fabian Monrose} and Danfeng Yao. In Proceedings of the ACM Conference on Computer and Communications Security, October, 2020.
+
+{\small\pubtag{Software Security}\tagsep\pubtag{Systems Security}\tagsep\pubtag{Measurement}}
+
+
+\item \emph{Mitigating Data Leakage by Protecting Memory-resident Sensitive Data}. Tapti Palit, {Fabian Monrose} and Michalis Polychronakis. In Proceedings of the Annual Computer Security Application Conference, December 2019.
+
+{\small\pubtag{Systems Security}\tagsep\pubtag{Software Security}\tagsep\pubtag{Privacy}}
+
+
+\item \emph{The \underline{SEV}er\underline{ES}t Of Them All: Inference Attacks Against Secure
+ Virtual Enclaves}. Jan Werner, Joshua Mason, Manos Antonakakis, Michalis Polychronakis and {Fabian Monrose}. In Proceedings of the ACM Asia Conference on Computer and Communication Security, July 2019.
+
+{\small\pubtag{Systems Security}\tagsep\pubtag{Forensics}\tagsep\pubtag{AI/ML}}
+
+
+\item \emph{SoK: The Challenges, Pitfalls, and Perils of Using Hardware
+ Performance Counters for Security}. S. Das, J. Werner,
+ M. Antonakakis, M. Polychronakis and F. Monrose. In Proceedings of the IEEE Symposium on Security and Privacy, May, 2019.
+
+{\small\pubtag{Privacy}\tagsep\pubtag{Systems Security}\tagsep\pubtag{Measurement}}
+
+
+\item \emph{SoK: Security Evaluation of Home-Based IoT Deployments*}. O. Alrawi, C. Lever, M. Antonakakis and F. Monrose. In Proceedings of the IEEE Symposium on Security and Privacy, May, 2019.
+
+{\small\pubtag{Privacy}\tagsep\pubtag{Systems Security}\tagsep\pubtag{Measurement}}
+
+
+\item \emph{Security Concerns in Asynchronous Web Server Architectures: When Performance Optimizations Empower Data-oriented Attacks}. M. Morton, J. Werner, K. Z. Snow, M. Antonakakis, M. Polychronakis and F. Monrose. In Proceedings of the IEEE European Symposium on Security and Privacy, April, 2018.
+
+{\small\pubtag{Software Security}\tagsep\pubtag{Systems Security}\tagsep\pubtag{Measurement}}
+
+
+\item \emph{Practical Attacks Against Graph-based Clustering*}. Y. Chen, Y. Nadji, A. Kountouras, F. Monrose, R. Perdisci, M. Antonakakis, N. Vasiloglou. In Proceedings of the ACM Conference on Computer and Communications Security, October, 2017.
+
+{\small\pubtag{AI/ML}\tagsep\pubtag{Systems Security}\tagsep\pubtag{Measurement}}
+
+
+\item \emph{Keeping Zombie Gadgets at Bay by Re-randomizing after Disclosure}. Micah Morton, Forrest Li, Kevin Snow, Michalis Polychronakis and {Fabian Monrose}. In Proceedings of Engineering Secure Systems and Software conference (ESSoS), July, 2017.
+
+{\small\pubtag{Systems Security}\tagsep\pubtag{Measurement}\tagsep\pubtag{Software Security}}
+
+
+\item \emph{Revisiting Browser Security in the Modern Era: New Data-only Attacks and Defenses}. Roman Rogowski, Micah Morton, Forrest Li, Kevin Z. Snow, {Fabian Monrose} and Michalis Polychronakis. In Proceedings of the IEEE European Symposium on Security and Privacy, March 2017.
+
+{\small\pubtag{Privacy}\tagsep\pubtag{Systems Security}\tagsep\pubtag{Software Security}}
+
+
+\item \emph{Virtual U: Defeating Face Liveness Detection by Building Virtual Models From Your Public Photos}. Yi Xu, True Price, Jan-Michael Frahm and {Fabian Monrose}.
+In Proceedings of the USENIX Security Symposium, August 2016.
+
+{\small\pubtag{Systems Security}\tagsep\pubtag{Privacy}\tagsep\pubtag{AI/ML}}
+
+
+\item \emph{Return to the Zombie Gadgets: Undermining Destructive Code Reads via Code-Inference Attacks}. Kevin Z. Snow, Roman Rogowski, Jan Werner, Hyungjoon Koo, {Fabian Monrose} and Michalis Polychronakis. In Proceedings of the IEEE Symposium on Security and Privacy, May, 2016.
+
+{\small\pubtag{Software Security}\tagsep\pubtag{Systems Security}\tagsep\pubtag{Measurement}}
+
+
+\item \emph{No-Execute-After-Read: Preventing Code Disclosures in Commodity Software}. Jan Werner, George Baltas, Rob Dallara, Nathan Otterness, Kevin Snow, {Fabian Monrose} and Michalis Polychronakis. In Proceedings of the ACM Asia Conference on Computer and Communication Security, May 2016.
+
+{\small\pubtag{Systems Security}\tagsep\pubtag{Measurement}\tagsep\pubtag{Privacy}}
+
+
+\item \emph{Detecting Malicious Exploit Kits using Tree-based Similarity Searches}. Teryl Taylor, Xin Hu, Ting Wang, Jiyong Jang, Marc Stoeckin, {Fabian Monrose} and Reiner Sailer. In Proceedings of the ACM Conference on Data and Application Security and Privacy, pages 255-266, March, 2016.
+
+{\small\pubtag{Malware}\tagsep\pubtag{Privacy}\tagsep\pubtag{Measurement}}
+
+
+\item \emph{Cache, Trigger, Impersonate: Enabling Context-Sensitive Honeyclient Analysis On-the-Wire}. Teryl Taylor, Kevin Snow, Nathan Otterness and {Fabian Monrose}. In Proceedings of the $23^{nd}$ ISOC Network and Distributed Systems Security Symposium (NDSS), Feb., 2016.
+
+{\small\pubtag{Systems Security}\tagsep\pubtag{Measurement}\tagsep\pubtag{Software Security}}
+
+
+\item \emph{Isomeron: Code Randomization Resilient to (Just-in-Time) Return-Oriented Programming}. Luca Davi, Christopher Liebchen, Ahmad-Reza Sadeghi, Kevin Z. Snow, and {Fabian Monrose}. In Proceedings of the  Network and Distributed Systems Security Symposium (NDSS), Feb., 2015.
+
+{\small\pubtag{Systems Security}\tagsep\pubtag{Measurement}\tagsep\pubtag{Software Security}}
+
+
+\item \emph{Watching the Watchers: Inferring TV Content from Outdoor Light Effusions}. Yi Xu, Jan-Michael Frahm and {Fabian Monrose}. In Proceedings of the 21st ACM Conference on Computer and Communications Security (CCS), November, 2014.
+
+{\small\pubtag{Systems Security}\tagsep\pubtag{Privacy}\tagsep\pubtag{AI/ML}}
+
+
+\item \emph{Emergent Faithfulness to Morphological and Semantic Heads in Lexical Blends}. Katherine Shaw, Elliott Moreton, Andrew White and {Fabian Monrose}. In Proceedings of the Annual Meeting on Phonology, February, 2014.
+
+{\small\pubtag{Phonology}\tagsep\pubtag{Human Factors}\tagsep\pubtag{Linguistics}}
+
+
+\item \emph{Security and Usability Challenges of Moving-Object CAPTCHAs: Decoding Codewords in Motion}. Yi Xu, Gerardo Reynaga, Sonia Chiasson, Jan-Michael Frahm and {Fabian Monrose}. IEEE Transactions on Dependable and Secure Computing, February, 2014.
+
+{\small\pubtag{Human Factors}\tagsep\pubtag{Biometrics}\tagsep\pubtag{Privacy}}
+
+
+\item \emph{On the Privacy Risks of Virtual Keyboards: Automatic Reconstruction of Typed Input from Compromising Reflections}. Rahul Raguram, Andrew White, Yi Xu, Jan-Michel Frahm, Pierre Georgel, and {Fabian Monrose}. IEEE Transactions on Dependable and Secure Computing, Volume 10, Issue 3, pages 154-167, May-June, 2013.
+
+{\small\pubtag{Privacy}\tagsep\pubtag{Systems Security}\tagsep\pubtag{Human Factors}}
+
+
+\item \emph{Seeing Double: Reconstructing Obscured Typed Input from Repeated Compromising Reflections}. Yi Xu, Jared Heinly, Andrew M. White, {Fabian Monrose} and Jan-Michael Frahm. In Proceedings of the  ACM Conference on Computer and Communications Security (CCS), November, 2013.
+
+{\small\pubtag{Privacy}\tagsep\pubtag{Systems Security}\tagsep\pubtag{Measurement}}
+
+
+\item \emph{Check my profile: Leverage static analysis for fast and accurate detection of ROP gadgets}. Blaine Stancill, Kevin Snow, Nathan Otterness, {Fabian Monrose}, Lucas Davi, and Ahmad- Reza Sadeghi. In Proceedings of the 16th International Symposium on Research in Attacks, Intrusions, and Defenses, October, 2013.
+
+{\small\pubtag{Systems Security}\tagsep\pubtag{Measurement}\tagsep\pubtag{Software Security}}
+
+
+\item \emph{Crossing the Threshold: Detecting Network Malfeasance via Sequential Hypothesis Testing}. Srinivas Krishnan, Teryl Taylor, {Fabian Monrose} and John McHugh.
+In Proceedings of the $42^{nd}$ Annual IEEE/IFIP International Conferences on Dependable Systems and Networks; Performance and Dependability Symposium, June, 2013.
+
+{\small\pubtag{Systems Security}\tagsep\pubtag{Measurement}\tagsep\pubtag{AI/ML}}
+
+
+\item \emph{Just-In-Time Code Reuse: On the Effectiveness of Fine-Grained Address Space Layout Randomization}. Kevin Snow, Lucas Davi, Alexandra Dmitrienko, Christopher Liebchen, {Fabian Monrose} and Ahmad-Reza Sadeghi. In Proceedings of $34^{th}$ IEEE Symposium on
+ Security and Privacy, May, 2013. ({\bf Best Student Paper Award}).
+
+{\small\pubtag{Privacy}\tagsep\pubtag{Systems Security}\tagsep\pubtag{AI/ML}}
+
+
+\item \emph{Clear and Present Data: Opaque Traffic and its Security Implications for the Future}. Andrew White, Srinivas Krishnan, Michael Bailey, {Fabian Monrose} and Phil Porras. In Proceedings of the $20^{th}$ ISOC Network and Distributed Systems Security Symposium, Feb., 2013.
+
+{\small\pubtag{Systems Security}\tagsep\pubtag{Measurement}\tagsep\pubtag{AI/ML}}
+
+
+\item \emph{Security and Usability Challenges of Moving-Object CAPTCHAs: Decoding Codewords in Motion}. Yi Xu, Gerardo Reynaga, Sonia Chiasson, Jan-Michael Frahm, {Fabian Monrose} and Paul van Oorschot.
+In Proceedings of the $21^{th}$ USENIX Security Symposium, August, 2012.
+
+{\small\pubtag{Human Factors}\tagsep\pubtag{Biometrics}\tagsep\pubtag{Privacy}}
+
+
+\item \emph{Toward Efficient Querying of Compressed Network Payloads}. Teryl Taylor, Scott E. Coull, {Fabian Monrose} and John McHugh. In USENIX Annual Technical Conference, June, 2012.
+
+{\small\pubtag{Measurement}\tagsep\pubtag{Systems Security}\tagsep\pubtag{AI/ML}}
+
+
+\item \emph{Trail of Bytes: New Techniques for Supporting Data Provenance and Limiting Privacy Breaches}. Srinivas Krishnan, Kevin Snow, and {Fabian Monrose}. IEEE Transactions on Information Forensics and Security, pages 1876-1889, Issue 6, Volume 7, 2012.
+
+{\small\pubtag{Forensics}\tagsep\pubtag{Privacy}\tagsep\pubtag{Human Factors}}
+
+
+\item \emph{Understanding Domain Registration Abuses (Invited Paper)}. Scott Coull,
+ Andrew White, Ting-Fang Yen, {Fabian Monrose} and Michael K. Reiter. Special Issue of Computers \& Security (COSE), pages 806-815, Volume 31, Number 7, October, 2012.
+
+{\small\pubtag{Measurement}\tagsep\pubtag{Systems Security}\tagsep\pubtag{AI/ML}}
+
+
+
+\item \emph{iSpy: Automatic Reconstruction of Typed Input from Compromising Reflections}.
+Rahul Raguram, Andrew White, Dibyendusekhar Goswami, {Fabian Monrose} and Jan-Michael Frahm.
+In Proceedings of the $18^{th}$ ACM Conference on Computer
+ and Communications Security (CCS), November, 2011.
+
+{\small\pubtag{Privacy}\tagsep\pubtag{Systems Security}\tagsep\pubtag{Measurement}}
+
+
+
+\item \emph{ShellOS: Enabling Fast Detection and Forensic
+ Analysis of Code Injection Attacks}. Kevin Snow, Srinivas Krishnan, {Fabian Monrose} and Niels Provos.
+In Proceedings of the $20^{th}$ USENIX Security Symposium, August, 2011.
+
+{\small\pubtag{Forensics}\tagsep\pubtag{Systems Security}\tagsep\pubtag{Software Systems}}
+
+
+\item \emph{An Empirical Study of the Performance, Security and Privacy Implications of Domain Name Prefetching}. Srinivas Krishnan and {Fabian Monrose}.
+In Proceedings of the $41^{st}$ Annual IEEE/IFIP International Conferences on Dependable Systems and Networks; Dependable Computing and Communications Symposium, June, 2011.
+
+{\small\pubtag{Measurement}\tagsep\pubtag{Systems Security}\tagsep\pubtag{Software Security}}
+
+
+\item \emph{Amplifying Limited Expert Input to Sanitize Large Network Traces}. Xin Huang, {Fabian Monrose}, and Michael K. Reiter.
+In Proceedings of the $41^{st}$ Annual IEEE/IFIP International Conferences on Dependable Systems and Networks; Performance and Dependability Symposium, June, 2011.
+
+{\small\pubtag{Systems Security}\tagsep\pubtag{Measurement}\tagsep\pubtag{AI/ML}}
+
+
+
+\item \emph{Phonotactic Reconstruction of Encrypted VoIP Conversations}. Andrew
+White, Kevin Snow, Austin Matthews and {Fabian Monrose}. In Proceedings of $32^{nd}$ IEEE Symposium on
+ Security and Privacy, May, 2011. ({\bf Best Paper Award}). \hfill
+
+{\small\pubtag{Privacy}\tagsep\pubtag{System Security}\tagsep\pubtag{Measurement}}
+
+
+
+\item \emph{Towards Optimized Probe Scheduling for Active Measurement Studies}. Daniel Kumar, {Fabian Monrose} and Michael K. Reiter. In Proceedings of the $6^{th}$ International Conference on Internet Monitoring and Protection (ICIMP), March, 2011 ({\bf Best Paper Award}).
+
+{\small\pubtag{Measurement}\tagsep\pubtag{Privacy}\tagsep\pubtag{Networks}}
+
+
+\item \emph{On Measuring the Similarity of Network Hosts: Pitfalls, New Metrics,
+ and Empirical Analyses}. Scott Coull, Micheal Bailey and {Fabian Monrose}.
+In Proceedings of the $18^{th}$ Annual Network and Distributed Systems Security Symposium, February, 2011. \hfill
+
+{\small\pubtag{Measurement}\tagsep\pubtag{Privacy}\tagsep\pubtag{Networks}}
+
+\end{itemize}
+
+%\end{cvhanglist}
+
+\headingsgap
+
+%\alignboth{PATENTS}{}
+%\begin{cvhanglist}
+
+\item {\bf Provisional Patents, Applications, and Invention Disclosures}
+
+\begin{itemize}
+ \item \textbf{Vinny Adjibi}, Michael D. Bailey and {Fabian Monrose}. {\it AI-Based System for Improved Brand Protection}, U.S. Provisional Patent Filing No. 64/167,370, October 1, 2026.
+ \item \textbf{Kevin Valakuzhy}, Miuyin Yong Wong, Omar Alrawi, Manos Antonakakis, Angelos D. Keromytis and {Fabian Monrose}. {\it Systems and Methods for Malware Similarity via Datastore of Assembly-level Malicious Behaviors Extracted from Memory}, US Provisional Patent  Filing No. 19/380,650,  November 5, 2025.
+ \item \textbf{Kevin Valakuzhy, Miuyin Yong Wong}, {Fabian Monrose}, Douglas Blough and Mustaque Ahmad. {\it LLM-Enabled System for Locating and Bypassing Evasive Malware Tactics}, U.S. Provisional Patent Filing No. 63/898,908, October 14, 2025.
+\end{itemize}
+
+
+
+\item {\bf Patents Awarded}
+\begin{itemize}
+
+
+\item Jan Werner, Rob Dallara, George Baltas, Michalis Polychronakis, Kevin Snow and {Fabian Monrose}. \emph{Methods, Systems, and Computer Readable Media for Preventing Code Reuse Attacks.} U.S. Patent No. 10,628,589, April, 2020.
+
+\item Xin Hu, Jiyong Jang, {Fabian Monrose}, Marc Philippe Stoecklin, Teryl Taylor and Ting Wang. \emph{Detecting Web Exploit Kits by Tree-based Structural Similarity Search}.
+U.S. Patent No. 10,560,471, Feb, 2020.
+
+\item T. Taylor, K. Snow, N. Otterness, and F. Monrose. \emph{Methods, systems, and computer readable media for detecting malicious network traffic}, U.S. Patent No. 9,992,217, June 2018.
+
+\item Srinivas Krishnan, {Fabian Monrose}, Michael Bailey, Phillip Porras, and Andrew White. \emph{Methods, Systems, and Computer Readable Media for Rapid Filtering of Opaque Data Traffic}, U.S. Patent No. 9,973,473, May 2018.
+
+\item Srinivas Krishnan, Teryl Taylor, {Fabian Monrose} and John McHugh. \emph{
+Methods, Systems, and Computer Readable Media for Detecting Compromised Computing Hosts}. U.S. Patent No. 9,934,379, April 2018.
+
+\item Srinivas Krishnan, Kevin Snow, and {Fabian Monrose}. \emph{
+Methods, Systems, and Computer Readable Media for Efficient Computer Forensic Analysis and Data Access Control}. U.S. Patent No. 9,721,089, August 2017.
+
+\item Kevin Z. Snow, {Fabian Monrose} and Srinivas Krishnan. \emph{
+Methods, Systems, and Computer Readable Media for Detecting Injected Machine Code}. U.S. Patent 9,305,165, April 5, 2016.
+
+\item {Fabian Monrose}, Teryl Taylor, Srinivas Krishnan and John McHugh.
+United States Patent Application Serial No. 14/773,660 for \emph{Methods, Systems, and Computer Readable Media for Detecting a Compromised Computing Host}, March, 2015.
+
+\ignore{
+\item K.Snow, S. Krishnan, and F. Monrose. \emph{
+Efficient Digital Forensics Support using a Virtualized Environment}. Provisional Patent Application No.421/282 filed May, 2011.
+
+\item Robert Arlein, Ben Jai, Markus Jakobsson, \textbf{Fabian Monrose} and Michael Reiter. \emph{
+Method \& Apparatus for Providing Privacy-preserving Global Customization}. U.S. Patent No. 7,107,269, September, 2006.
+
+\item Phil L.~Bohannon, Markus Jakobsson, \textbf{Fabian Monrose}, Michael
+ K. Reiter and Susanne Wetzel. \emph{Generation of Repeatable
+ Cryptographic Keys Based on Varying Parameters.} U.S. Patent
+ No. 6,901,145, May 31, 2005.
+
+\item Markus Jakobbson and \textbf{Fabian Monrose}. \emph{System \& Apparatus
+ for Incorporating Advertising into Printed Images}. U.S. Patent
+ No. 6,873,424, March, 2005.
+}
+
+\end{itemize}
+%\end{cvhanglist}
+
+
+%\alignboth{Funding} {Grants \& Contracts ({\it \underline{last 15 years only}})}
+\headingsgap
+\item{\textbf{Grants and Contracts} ({\it \underline{last 10 years only}})}
+\begin{cvhanglist}
+{
+\item {\bf PI}, DARPA (Jim Simpson ({\it lead, Cynnovative})), {\sc STTR Phase II: Learning an Unknown Compiler for Instant Development (LUCID)}; share  $\$540,000$. April 2026 -- May 2028. \hfill
+
+\item {\bf Co-PI}, Verisign Inc. (with M. Bailey), {\sc Securing DNS}; share \$128,000. Feb 2026 -- Feb 2027. \hfill
+
+\item {\bf Co-PI}, ARPA-H (Brendon Saltaformaggios ({\it lead})), {\sc Hospital-Integrated Vulnerability Identification and Proactive Remediation (H-VIPER)}; share  $\$402,000$. October 2025 -- May 2027. \hfill
+
+
+\item {\bf Co-PI}, NAVY/National Security Technology Accelerator (K. Bittick at GTRI ({\it lead})), {\sc Firmware Bill of Materials Extractor}; share \$684,000. August 2024 -- July 2027. \hfill
+
+\item {\bf Senior Personnel}, DARPA (M. Antonakakis at GaTech ({\it lead})), {\sc A Novel Framework to Assess, Statistically Model and Evade Cyber Attack Infrastructure}; share $\$1,266,714$, October 2022 --- April 2027 (NCE). \hfill
+}
+\item {\bf Co-PI} (with Jan-Michel Frahm), CIA, {\sc Cyber Identity and Behavioral Analytics Research Consortium (CIBAR)}; share  $\$538,000$, July 2017 --- Dec, 2021. \hfill
+
+\item {\bf PI}, DARPA (M. Antonakakis at GaTech ({\it lead})), {\sc Attributing Cyber Actors through Tensor Decomposition and Novel Data Acquisition}; share $\$2,019,181$, Nov. 2016 --- August 2021. \hfill
+
+\item {\bf PI}, NIST, {\sc Knowledge is Power: Assessing the Security and Privacy of Consumer IoT Architectures and Systems} for $\$183,063.00$, July 2017 --- July, 2018. \hfill
+
+\item {\bf PI}, IEEE, {\sc Advancing Cybersecurity Education Through Active, Challenge-Based, Learning Exercises} for $\$119,999.44$, Jan. 2017 --- August, 2018. \hfill
+
+\item {\bf PI}, Department of Defense University Research Instrumentation Program (DURIP), {\sc Next Generation Defenses against Web-based Exploits} for $\$116,500.00$, April, 2016 --- May 2017. \hfill
+
+%\item {\bf Co-PI} (Jan-Michel Frahm ({\it lead})), Department of Defense University Research Instrumentation Program (DURIP), {\sc Understanding Privacy Risks of Ubiquitous Personal Augmented Reality Head-mounted Displays}; share $\$95,385.00$, June, 2014 --- May 2015. \hfill
+
+\item {\bf PI}, NSF {\it Secure and Trustworthy Computing}, {\sc TWC: TTP Option: Small: Scalable Techniques for Better Situational Awareness: Algorithmic Frameworks and Large Scale Empirical Analyses}
+ for $\$667,900.00$, Sept. 2014---August 2017. \hfill
+
+\item {\bf PI} Department of Homeland Security {\it Transition to Practice Program}, {\sc Supplement to NSF SDCI Sec: New Software Platforms for Supporting Network-wide Detection of Code Injection Attacks}
+ for $\$350,000.00$, Sept. 2014---August 2015. \hfill
+
+\ignore{
+\item {\bf PI}, Department of Defense University Research Instrumentation Program (DURIP), {\sc Next-generation defenses for securing VoIP communications} for $\$114,345.00$, June, 2013 --- May 2014. \hfill
+
+
+\item {\bf PI}, NSF {\it Secure and Trustworthy Computing}, {\sc Toward Pronounceable Authentication Strings}
+ for $\$499,997.00$, Aug. 2013---July 2016. \hfill
+
+
+\item {\bf PI}, Department of Homeland Security, {\sc Efficient Tracking, Logging, and Blocking of Accesses to Digital Objects} (C. Schmitt and M. Bailey) for
+ $\$1,035,590$. September 2012 --- August 2014.
+
+ \item {\bf Co-PI} (Jan-Michel Frahm ({\it lead})), NSF {\it Division of Information \& Intelligent Systems}, {\sc EAGER: Automatic Reconstruction of Typed Input from Compromising Reflections}; share $\$151,749.00$,
+August 2011---July 2013.
+
+ \item {\bf PI}, {\it Verisign Labs Research Awards Program}, {\sc On Exploring Applications of Phonetic Edit Distance} for
+ $\$65,000.00$, June 2011.
+
+\item {\bf PI}, {\it Google Faculty Research Awards Program}, {\sc ShellOS: An Efficient Runtime Platform For Detecting Code Injection Attacks} for
+ $\$61,635.00$, May 2011.
+
+\item {\bf PI}, NSF {\it Office of Cyberinfrastructure}, {\sc SDCI Sec: New Software Platforms for Supporting Network-wide Detection of Code Injection Attacks}
+ for $\$800,000.00$, Aug. 2011---July 2014. \hfill
+
+%\item {\bf PI}, NSF {\it Trustworthy Computing}, {\sc Support for the 2011 USENIX Security Symposium; San Francisco} for $\$20,000.00$, July 30, 2011--- October 2011. \hfill
+
+\item {\bf PI}, NSF {\it Trustworthy Computing}, {\sc TC: Small:
+ Exploring Privacy Breaches in Encrypted VoIP Communications} for $\$496,482.00$, Aug. 2010---July 2013. \hfill
+
+%\item {\bf PI}, NSF {\it Trustworthy Computing}, {\sc Support for the 2010 USENIX Security Symposium; Washington D.C.} for $\$20,000.00$, July 30, 2010--- October 2010. \hfill
+
+\item {\bf PI} (A. Stavrou at GMU ({\it lead})), NSF {\it Trustworthy Computing}, {\sc  Scalable Malware Analysis using Lightweight
+ Virtualization}; share $\$259,264.00$, Sept. 2009---August 2011. \hfill
+}
+
+\ignore{
+\item {\bf PI}, {\sc Detecting and Monitoring
+ Malfeasance on the Net}, Google Faculty Research Awards Program for
+ $\$90,000.00$, March 2009--Feb 2010.
+
+\item {\bf Co-PI} ( W.~Lee at GaTech ({\it lead})), NSF {\it Cyber Trust}: {\sc CLEANSE:Cross-Layer
+ Large-Scale Efficient Analysis of Network Activities to SEcure the
+ Internet} for $\$1,839,297.00$, July 2008
+ --- June 2012. \hfill \hfill
+
+ \item {\bf PI}, Department of Homeland Security, {\sc New Frameworks
+ for Detecting and Minimizing Information Leakage in Anonymized
+ Network Data} for
+ $\$962,609.00$. April 2008---April 2011.
+
+ \item {\bf Co-PI} (G. Masson ({\it lead})), {\sc Security through
+ Virtualization}. Information Assurance Scholarship Program for
+ $\$142,948.00$. DoD, ANNEX II, Feb, 2008. \hfill
+
+ \item {\bf Co-PI} (A.~Terzis ({\it lead})), NSF: {\sc Thinking Ahead: A
+ Proactive Approach for Countering Internet Malware} for $\$350,000.00$. September 2006 --- August 2009.
+
+\item {\bf PI}, NSF: {\sc Career:Towards Effective
+ Identification of Application Behaviors in Encrypted Traffic} for
+ $\$400,000.00$. September 2006 --- August 2011.
+
+\item {\bf PI}, NSF: {\sc Generative Models for
+ Improving Biometrically Enhanced Systems} for $\$696,553.00$. December 2004 --- October
+ 2007.
+
+\item {\bf Co-PI}, NSF: {\sc Towards more Secure
+ Inter-domain Routing} \hfill (A. Rubin ({\it lead})) for $\$616,923.00$.
+ November 2003 --- June 2006.
+}
+\end{cvhanglist}
+
+\end{cvhanglist}
+
+\headingsgap
+\alignboth{[V]. Education} {}
+%\begin{cvhanglist}
+
+\begin{itemize}
+\item {\bf Courses Taught} 
+
+\begin{itemize}
+
+\item \emph{Advanced Computer Security, ECE 8813}, Fall 2025, 8 students.
+\item \emph{Advanced Computer Security, ECE 8813},  Fall 2024, 14 students.
+\item \emph{Advanced Computer Security, ECE 8813}, Fall 2023, 15 students.
+\end{itemize}
+
+\ignore{
+\item \emph{Introduction to Computer Security}, Spring 2022, 59 students.
+\item \emph{Computer and Network Forensics}, Spring 2021, 13 students.
+\item \emph{Technical Communications and Writing in Computer Science}, Spring 2021, 14 students.
+\item \emph{Introduction to Computer Security}, Fall 2020, 19 students.
+
+\item \emph{Technical Communications and Writing in Computer Science}, Spring 2020, 18 students.
+\item \emph{Introduction to Computer Security}, Spring 2019, 34 students.
+\item \emph{Introduction to Computer Security}, Spring 2017, 48 students.
+\item \emph{Computer Forensics}, Fall 2016, 14 students.
+\item \emph{Introduction to Computer Security}, Spring 2016, 43 students.
+\item \emph{Introduction to Computer Security}, Spring 2015, 30 students.
+
+
+\item \emph{Introduction to Computer Security}, Spring 2012, 26 students.
+\item \emph{Network Security}, Fall 2008, 21 students.
+\item \emph{Special Topics in Computer Science}, Spring 2009, 7 students.
+\item \emph{Network Security}, Fall 2009, 16 students.
+\item \emph{Introduction to Computer Security}, Spring 2010, 17 students.
+\item \emph{Network Security}, Fall 2010, 11 students.
+\item \emph{Introduction to Computer Security}, Spring 2012, 25 students.
+}
+
+\bibgap
+\item {\bf Individual Student Guidance}
+
+\begin{itemize}
+\item {\bf In Progress Ph.D. Students}
+\begin{itemize}
+	\item Lydia Han, Ph.D., {\it TBD}, Spring 2025 --  Fall 2028
+	\item James Fullwood, Ph.D, {\it Multilabel Classification of Synthetic Audio}, Fall 2023 -- Fall 2028
+	\item Vinny Adjibi, Ph,D, {\it Robust Brand Protection in the Domain Name Space}, Spring 2023 -- 2028 ({\it Palo Alto Networks})
+	\item Yufei Du, Ph.D, {\it Leveraging Compile-time Metadata to Detect Compiler-Induced Security Issues and Selectively Invoke Security Protections at Deploy Time}, Spring 2023 -- Spring 2027
+	\item Kevin Valakuzhy, Ph,D., {\it Robust Approaches for Reducing  Analyst Workloads with Agentic Systems}, Fall 2022 -- Fall 2026
+	\item Tillson Galloway,  {\it Demystifying Operational Gaps in the Threat Intelligence Ecosystem}, Ph.D., expected graduation: Fall 2024 -- Fall 2026 ({\it Meta})
+\end{itemize}
+
+\bibgap
+\item {\bf Graduated Ph.D. Students (external to Georgia Tech)}
+\begin{itemize}
+	\item Kedrian James, Spring 2024, Ph.D., UNC Chapel Hill ({\it Highpoint University})
+	\item Mac Malone, Fall 2023, Ph.D., UNC Chapel Hill ({\it Lean})
+%	\item Teryl Taylor, Summer 2016, Ph.D., UNC Chapel Hill, {\it IBM TJ Watson}
+%	\item Yi Xu, (co-advisor: Jan-Michael Frahm), UNC Chapel Hill, Spring 2016, Ph.D. {\it Snapchat}
+%	\item Andrew White, Fall 2015, Ph.D., UNC Chapel Hill, {\it Netflix}
+%	\item Kevin Snow, Spring 2014, Ph.D., UNC Chapel Hill, {\it Zeropoint Dynamics}
+\end{itemize}
+
+\bibgap
+\item  {\bf M.S. Students}
+\begin{itemize}
+	\item Amogh Palasamudram, MSe, Summer 2024 -- Spring 2026 ({\it Google})
+	\item Lindsey Lubin, {\it Leveraging Large Language Models to Support Individualized Learning}, Fall 2024 -- Spring, 2025 ({\it Sandia National Labs}) 
+\end{itemize}
+
+\bibgap
+\item {\bf Undergraduate Students}
+\begin{itemize}
+\item Allen Chang, Summer 2023 -- Fall, 2025 ({\it Palo Alto Networks})
+\end{itemize}
+
+\ignore{
+\item Scott Coull, Fall 2009, Ph.D., ({\it Mandiant})
+\item Josh Mason, Fall 2009, Ph.D., ({\it Research Professor, UIUC})
+\item Charles Wright, Spring 2008, Ph.D., ({\it Portland State University})
+\item Seny Kamara, Spring 2008, Ph.D., ({\it Brown University})
+\item Mho Abu Rajab (co-advised with A. Terzis), Ph.D., Spring 2008, ({\it Google})
+\item Lucas Ballard, Spring 2008, Ph.D., ({\it Google})
+\item Sophie Qui (co-advised with G. Mason), Ph.D., Spring 2007, ({\it Cisco Systems})
+\item Srinivas Krishnan (co-advised with K. Jeffay), {\it Google}
+\item John Lim (co-advised with Jan-Michael Frahm) {\it Salesforce}
+
+
+%\item Lydia Han
+
+%\item Danny Kumar (co-advised; current), {\it UNC Chapel Hill}
+
+%\item Xin Huang (co-advised with M. Reiter; current), {\it UNC Chapel Hill}
+
+}
+
+\bibgap
+\item {\bf Service on Thesis or Dissertation Committees (* = Georgia Tech)}
+\begin{itemize}
+	\item Athanasios Moschos, {\it A Systems Perspective on Hardware Trojans Inside Processors*}, Ph.D.,  Georgia Institute of Technology, Advisor: Angelos Keromytis, 2026 (expected)
+	\item Arman Allahverdi, {\it Design, Analysis, and Implementation of a Scalable Hardware-Oriented Cryptographic Primitive*}, Ph.D.,  Georgia Institute of Technology, Advisor: Vincent J. Mooney,  2026 (expected)
+	\item Athanasios Avgetidis, {\it Towards Understanding the Lifecycle of Malicious Network Infrastructure*}, Ph.D., Georgia Institute of Technology, Advisor: Manos Antonakakis, 2025
+	\item Aaron Faulkenberry, {\it Internet-Scale Discovery and Measurement of DNS Monitoring for Cyber Threats*}, Ph.D.,  Advisor: Manos Antonakakis Georgia Institute of Technology, 2025
+	\item Kedrian James, {\it Improving Software Security Triage and Remediation}, Ph.D., UNC Chapel Hill, May, Advisor: Fabian Monrose, 2024.
+	\item Miuyin M. Wong, {\it Narrowing the Gap between Research and Practice through the Understanding of Malware Analysis Workflows*}, Ph.D., Georgia Institute of Technology, Advisor: Mustaque Ahmad, 2024
+	\item Kevin Hutto, {\it Remote Sensor Security Through Encoded Computation and Cryptographic Signatures*}, Ph.D., Advisor: Vincent J. Mooney, Georgia Institute of Technology, May, 2024.
+	\item Mac Malone, {\it Improving Student Engagement and Learning Outcomes with a Gamified Learning Platform}, Ph.D., UNC  Chapel Hill, Advisor: Fabian Monrose, May, 2023.
+	\item Omar Alrawi, {\it Security and Threat Evaluation of Smart Home Technology*}, Georgia Institute of Technology, Advisor: Manos Antonakakis, July, 2022.
+	\item Salman Ahmed, {\it Quantitative Metrics and Measurement Methodologies for System Security Assurance}, Virginia Tech, Advisor: Daphne Yao,  Dec, 2021.
+	\item Tapti Palit, {\it Sensitive Data Encryption: A Scalable Defense against Sensitive Data Leakage}, Stony Brook University, Advisor: Michalis Polychronakis, October, 2021.
+	\item Calvin Deutschbein, {\it Mining Secure Behavior of Hardware Designs}, UNC Chapel Hill, Advisor: Cynthia Sturton, July, 2021.
+	
+	\ignore{
+	\item Adrian Tang, {\it Security Engineering of Hardware-Software Interfaces}, Columbia University, Advisor: Salvatore J. Stolfo, April, 2018.
+	\item Louis Soleyn, {\it Software Techniques for Implementing Dynamic, Network-Aware, Energy-Efficient Mobile Applications}, MPhil., University of the West Indies, Barbados, Advisor: Dwaine Clarke, 2018.
+	\item Chaz Lever, {\it Empirical Analysis of Existing and Emerging Threats at Scale Using DNS*}, Georgia Institute of Technology, Advisor: Manos Antonakakis, Fall, 2017.
+	\item Denis Bueno, {\it Automated Software Security Analysis Using Control and Data Abstractions*}, Ph.D., University of Michigan, Advisor: Michael Bailey, 2017.
+	\item Tracey  E. John, {\it Virtual Career Advisor System}, MPhil., University of the West Indies, Barbados, Advisor: Dwaine Clarke, 2017.
+	\item Teryl Taylor, {\it Using Context to Improve Network-based Malware Detection}, Ph.D., UNC Chapel Hill, Advisor: Fabian Monrose, Summer, 2016.
+	\item Yi Xu, {\it Toward Robust Video Event Detection and Retrieval Under Adversarial Constraints}, Ph.D., UNC Chapel Hill, Advisors: Jan Michael-Frahm and Fabian Monrose, Spring, 2016.
+	\item Andrew M. White, {\it Practical Analysis of Encrypted Network Traffic}, Ph.D., UNC Chapel Hill, Advisor: Fabian Monrose, Spring, 2015.
+	\item Kevin Z. Snow, {\it Identifying Code Injection and Code Reuse Payloads in Memory Error Exploits}, Ph.D., UNC Chapel Hill, Advisor: Fabian Monrose, Spring, 2014.
+	}
+\end{itemize}
+
+\bibgap
+\item {\bf Mentorship of Research Scientists}
+\begin{itemize}
+	\item Omar Alwari, 2023 -- present.
+	\item Panagiotis Kintis, 2024 -- August 2026.
+\end{itemize}
+
+
+\end{itemize}
+\end{itemize}
+
+
+\ignore{
+\headingsgap
+
+\alignboth{ BS/MS \\ Advisees}{}
+\begin{cvhanglist}
+
+\item Wilson Lian, {\it Traffic Classification using Visual Motifs}, University of North Carolina at Chapel Hill, Honors Thesis, 2010.
+
+\item Austin Matthews, {\it Phonetic Edit Distance: New Techniques and Empirical Analyses}, University of North Carolina at Chapel Hill, Honors Thesis, 2011.
+
+\item Chris Allen, {\it WarFlying: Creating Aerial WiFi-maps using Custom Drones}, University of North Carolina at Chapel Hill, Honors Thesis, 2013.
+
+\item Rob Dallara, {\it On the (In)effectiveness of Execute-no-Read (XNR) as a Defense against Just-in-Time Code Reuse Attacks.} University of North Carolina at Chapel Hill, Comprehensive paper, 2015.
+
+\item Micah Moreton, {\it Detecting Potential for Server-side Data-oriented Attacks}, University of North Carolina at Chapel Hill, 2017
+
+\item Roman Rogowski, {\it Revisiting Browser Security in the Modern Era}. University of North Carolina at Chapel Hill, Comprehensive paper, 2017.
+
+\item Boo Fullwood, {\it Revisiting Charger-based Side Channel Password Inference Attacks}. University of North Carolina at Chapel Hill, Comprehensive paper, 2022.
+
+\item Kevin Lane, {\it Cloud-based Architectures for Detecting VoIP Scams}. University of North Carolina at Chapel Hill, Comprehensive paper, 2022.
+
+\end{cvhanglist}
+}
+
+
+\headingsgap
+\alignboth{SERVICE \\ ({\it last 10 years})}{}
+
+\begin{itemize}
+
+
+\item {\bf Professional Contributions}
+
+\begin{itemize}
+
+
+\item {\it Distinguished Paper Awards Committee},  $33^{rd}$ ACM CCS, \hfill 2026
+
+\item {\it TPC},  $32^{nd}-33^{rd}$ ACM Conference on Computer and Communications Security, \hfill 2025-2026
+
+\item {\it TPC},  $47^{th}$ IEEE Symposium on Security and Privacy, \hfill 2026
+
+
+\item {\it Test of Time Awards Committee}, USENIX Security Symposium, \hfill 2022-2024
+
+\item {\it TPC},  $14^{th}$ ACM Conference on Data and Application Security and Privacy, \hfill 2024
+
+%\item ECE PhD Admissions committee ({\bf Chair} for Software \& Systems TIG), \hfill 2023
+
+
+\item {\it TPC},  $13^{th}$ ACM Conference on Data and Application Security and Privacy, \hfill 2023
+
+\item {\it TPC},  $29^{th}$ Annual Computer Security Applications Conference, \hfill 2021
+
+\item {\it TPC},  $40^{th}-41^{st}$ IEEE Symposium on Security and Privacy, \hfill 2019-2020
+
+
+\item {\it TPC},  $20^{th}$ Symposium on Research in Attacks and Defenses, \hfill 2018
+
+\item {\it TPC},  CVPR Workshop on Computer Vision and Computer Security, \hfill 2017
+
+\item {\it TPC},  $18^{th}$ Symposium on Research in Attacks and Defenses, ({\bf Chair}), \hfill 2016
+
+\end{itemize}
+
+\item {\bf Institute Contributions}
+\begin{itemize}
+\item Co-director,  ECE Center for Cyber Operations Enquiry and \\ Unconventional Sensing (CEOUS), \hfill 2024 -- present
+\item ECE PhD {\it Admissions committee} ({Area Chair} for Software \& Systems TIG), \hfill 2023--2027
+\item {\it Faculty Recruiting Committee}, School of Cybersecurity \& Privacy, \hfill 2023--2025
+\item {\it COE Cybersecurity Fellows Selection Committee Chair}, \hfill 2023
+
+
+\end{itemize}
+
+
+%\item {\it TPC},  $1^{st}$ IEEE APWG Symposium on Electronic Crime Research (eCrime), \hfill  2016
+
+\ignore{
+
+
+
+%\item ACM Workshop on Information Sharing and Collaborative Security, \hfill 2015
+
+\item $17^{th}$ Symposium on Research in Attacks and Defenses, ({\bf Co-Chair}), \hfill 2015
+
+\item DARPA Information Science and Technology (ISAT) advisory group \hfill 2014
+
+\item $9^{th}$ USENIX Workshop on Hot Topics in Security ({\bf Co-Chair}) \hfill 2014
+
+\item $16^{th}$ Symposium on Research in Attacks and Defenses, \hfill 2014
+
+\item $15^{th}$ Symposium on Research in Attacks and Defenses, ({\bf General Chair}), \hfill 2013
+
+\item $22^{nd}$ {USENIX} Security Symposium, \hfill 2013
+
+\item $20^{th}$ ACM Conference on Computer and Communications Security, \hfill 2013
+
+\item $11^{th}$ International Conference on Cryptography and Network Security \hfill 2012
+
+\item NSF Secure and Trustworthy Cyberspace Panelist, \hfill 2012
+
+\item $15^{th}$ International Symposium on Recent Advances in Intrusion Detection \hfill 2012
+
+\item $12^{th}$ Annual Digital Forensics Research Conference \hfill 2012
+
+\item $16^{th}$ Financial Cryptography and Data Security \hfill 2012
+
+\item $6^{th}$ USENIX Workshop on Hot Topics in Security \hfill 2011
+
+\item NSF Cyber Trust panelist, 2006---2009, \hfill 2011
+
+\item $11^{th}$ Annual Digital Forensics Research Conference \hfill 2011
+
+\item $18^{th}$ ACM Conference on Computer and Communications Security \hfill 2011
+
+\item $17^{th}$ ACM Conference on Computer and Communications Security \hfill 2010
+
+\item $14^{th}$ Financial Cryptography and Data Security \hfill 2010
+
+\item $30^{th}$ International Conference on Distributed Computing
+ Systems \hfill 2010
+
+\item $16^{th}$ ACM Conference on Computer and Communications Security \hfill 2009
+
+\item $18^{th}$ {USENIX} Security Symposium, ({\bf Program Chair}) \hfill 2009
+
+\item $16^{th}$ Annual Network and Distributed Systems Security
+ Symposium \hfill 2009
+
+\item $29^{th}$ International Conference on Distributed Computing
+ Systems \hfill 2008
+
+\item $17^{th}$ {USENIX} Security Symposium \hfill 2008
+
+\item $29^{th}$ Annual IEEE Symposium on Security and Privacy \hfill 2008
+
+\item $15^{th}$ Annual Network and Distributed Systems Security
+ Symposium \hfill 2008
+
+\item $1^{st}$ USENIX Workshop on Large-scale Exploits \& Emergent
+ Threats, ({\bf Program Chair}) \hfill 2008
+
+\item $6^{th}$ IEEE Biometrics Symposium \hfill 2008
+
+\item $14^{th}$ Annual Network and Distributed Systems Security
+ Symposium \hfill 2007
+
+\item $2^{nd}$ USENIX Workshop on Hot Topics in Security \hfill 2007
+
+\item $10^{th}$ Information Security Conference \hfill 2007
+
+\item $1^{st}$ USENIX Workshop on Hot Topics in Understanding Botnets
+ \hfill 2007
+
+\item $16^{th}$ {USENIX} Security Symposium \hfill 2007
+
+\item $28^{th}$ Annual IEEE Symposium on Security and Privacy \hfill 2007
+
+\item NSF Exploratory Research panelist, \hfill 2006--2007
+
+\item $15^{th}$ {USENIX} Security Symposium \hfill 2006
+
+\item $4^{th}$ ACM Workshop of Recurring Malware \hfill 2006
+
+\item $13^{th}$ Annual Network and Distributed Systems Security
+ Symposium \hfill 2006
+
+}
+
+%\item $14^{th}$ {USENIX} Security Symposium \hfill 2005
+
+%\item $25^{th}$ International Conference on Distributed Computing
+% Systems \hfill 2005
+
+%\item $6^{th}$ International Workshop on Information Security
+% Applications \hfill 2005
+
+%\item $12^{th}$ International WWW Conference, {\it Security and
+% Privacy Track} \hfill 2004
+
+%\item $10^{th}$ Network and Distributed Systems Security Symposium
+% \hfill 2003
+
+%\item $12^{th}$ International WWW Conference, {\it Security and
+% Privacy Track} \hfill 2003
+
+%\item $4^{th}$ International Workshop on Information Security
+% Applications \hfill 2003
+
+%\item $9^{th}$ Network and Distributed Systems Security Symposium \hfill 2002
+
+%\item $8^{th}$ Network and Distributed Systems Security Symposium \hfill 2001
+
+%\item $5^{th}$ International Workshop on Discrete Algorithms for
+% Mobile Computing \hfill 2000
+
+%\item $1^{st}$ Workshop on Security and Privacy in Electronic Commerce
+% \hfill 2000
+
+\end{itemize}
+
+\headingsgap
+
+\ignore{
+\alignboth{Editorial/Advisory Boards}{}
+
+\begin{cvhanglist}
+
+\item Johns Hopkins Information Security Institute Advisory Board \hfill 2016--{\it present}
+\item ACM Transactions of Information and System Security \hfill 2006
+ --- {\it 2009}
+
+\end{cvhanglist}
+}
+
+
+\ignore{
+\alignboth{Recent Organizing \&\\ Steering
+ \\Committees}{}
+
+\begin{cvhanglist}
+
+{
+\item {\it Test of Time Awards}, USENIX Security Symposium, \hfill 2018 - 2024
+
+ \item {\it Steering Committee}, Research in Attacks, Intrusions and Defenses (RAID) \hfill 2016 - 2019
+ }
+
+
+\item {\it General and Local Chair}, Research in Attacks, Intrusions and Defenses (RAID) \hfill 2013
+
+%\item {\it Local Arrangements Chair}, Financial Cryptography and Data Security \hfill 2011
+
+ \item {\it Steering Committee}, USENIX
+ Security Symposium \hfill 2012-{2015}
+
+\ignore{
+
+\item {\it Steering Committee}, Network \& Distributed Systems
+ Security Symposium \hfill 2007-10
+
+\item {\it Steering Committee}, USENIX Wksh. on Large-scale
+ Exploits \& Emergent Threats \hfill 2009-{2014}
+
+\item {\it Publicity Chair}, ACM Workshop on Rapid Malcode, Arlington
+ \hfill 2006
+
+\item {\it Co-organizer, }DIMACS Workshop on Security and Usability,
+ Rutgers \hfill 2004
+
+}
+
+\end{cvhanglist}
+}
+
+%\alignboth{Journal \\ Reviewer}{}
+
+%\begin{itemize}
+
+%\item Journal of Computer Networks, ACM Transactions on Information
+% and System Security (TISSEC), ACM Transactions on Internet
+% Technology (TOIT), IEEE Security \& Privacy magazine, IEEE Internet
+% Computing magazine, IEEE Transactions on Computers, ACM
+% Communications Review, IEEE Transactions on Networking (TONS), IEEE
+% Transactions on Dependable and Secure Computing.
+
+%\end{itemize}
+
+ %\headingsgap
+
+\ignore{
+\alignboth{Invited Talks}{}
+\begin{cvhanglist}
+%\item {\it Covertly Tracking a Large Collection of Botnets:
+% Challenges, Pitfalls, and Lots of Questions}. Purdue University,
+% CERIAS Speaker Series, Fall, 2007 ({\it upcoming})
+
+\item Keynote --- {\it The Joys, and Challenges, of Cross-Disciplinary Computer Security Research}. XIII Symposium on Information Security and Computer Systems, Brazil, November, 2013.
+
+\item {\it The Joys, and Challenges, of Cross-Disciplinary Research}. NSERC ISSNet Summit, Victoria, CA, April, 2013.
+
+\item Keynote --- {\it Hookt on fon-iks: Learning to Read Encrypted VoIP Conversations}. European Workshop on System Security, Switzerland, April, 2012.
+
+\item {\it Hookt on fon-iks: Learning to Read Encrypted VoIP Conversations}. Columbia University, December, 2012. Host: Angelos Keromytis.
+
+\item {\it Hookt on fon-iks: Learning to Read Encrypted VoIP Conversations}. National Science Foundation WATCH Series, Dec., 2011. Host: Keith Marzullo.
+
+\item {\it Exploring Information Leakage in Encrypted VoIP Communications}. Center for Applied Cybersecurity Research, Indiana University, April 2010. Host: Minaxi Gupta.
+
+\item {\it Privacy Leaks In Encrypted Network Traffic}. Security and
+ Privacy Day, Stonybrook University, May 2008. Host: R. Sekar.
+
+\item {\it Traffic Analysis of Encrypted VoIP Communications}. \'{E}cole
+ Polytechnique, Montreal, March, 2008. Host: Jos\'{e} M. Fernandez.
+
+\item {\it Covertly Tracking Malfeasance on the Net: Challenges,
+ Pitfalls and some Opportunities}. University of
+ North Carolina, Chapel Hill, Computer Science Department, December,
+ 2007. Host: Mike Reiter.
+
+\item {\it Playing Devil's Advocate: Inferring Sensitive Information
+ from Anonymized logs}. Georgia Institute of Technology, February,
+ 2007. Host: Wenke Lee.
+
+\item {\it Covertly Tracking a Large Collection of Botnets:
+ Challenges, Pitfalls, and Lots of Questions}. Security Seminar
+ Series, Columbia University, December, 2006. Host: Angelos Keromytis.
+
+\item {\it Traffic Classification in the Dark}. Toronto Networking
+ Seminar Series, University of Toronto, Canada, November, 2006.
+ Host: Stefan Saroiu.
+
+\item {\it Unveiling the Dark Corners of the Internet: or, do you know
+ who's using your computer?} Black Faculty and Staff Lecture
+ Series, Johns Hopkins University, November, 2006
+
+\item {\it Covertly Tracking a Large Collection of Botnets}. Security
+ Group, Google Inc., Mountain View, September, 2006. Host: Niels Provos.
+
+\item {\it Biometric Authentication Revisited: Understanding the
+ Impact of Wolves in Sheep's Clothing}, Digital Security Group,
+ Carleton University, Ottawa, April, 2006. Host: Paul van Oorchot.
+
+%\item ({\it Co-leader}) {\it Panel: Biometric Identification Systems},
+% NSF and Department of Treasury Special Workshop on Resilient
+% Financial Information Systems, March, 2005
+
+%\item {\it On User Choice in Graphical Password Schemes}, DIMACS
+% Workshop on Security and Usability, Rutgers, May, 2004
+%
+%\item {\it Towards Cryptographic Key Generation from Biometrics}, CSE
+% Lecture Series, Lehigh University, December, 2003. Host: Daniel Lopresti.
+
+%\item {\it On the Feasibility of Key Generation from non-static
+% Biometrics}, CS Seminar Series, Steven's Institute of Technology,
+% April, 2003. Host: Susanne Wetzel.
+
+%\item {\it On the Feasibility of Key Generation from non-static
+% Biometrics}, ECE Lecture Series, Carnegie Mellon University,
+% November, 2002. Host: Mike Reiter.
+
+\end{cvhanglist}
+
+}
+%\eject
+
+%\headingsgap
+
+%%\newpage
+%%\eject
+%\alignboth{MSe Thesis \\Advisor}{}
+%\begin{itemize}
+
+%\item Darren Davis, {\it Searching Encrypted Audit Logs
+% Expeditiously}, MSe, Johns Hopkins University, May, 2004
+
+%\item Jay Zarfoss, {\it A Scalable Architecture for Botnet Tracking},
+% MSe, Johns Hopkins University, January, 2007
+
+%\item Charles Omstead, {\it Detecting Kernel-level Violations}, MSe,
+% Johns Hopkins University, Spring, 2008\hfill
+%\end{itemize}
+
+%\headingsgap
+%\alignboth{ Supervised \\ Ph.D. Projects (JHU)}{}
+
+%\begin{itemize}
+
+%\item Scott Coull, {\it De-anonymizing Anonymous Logs},
+% Ph.D. qualifier 2006
+
+%\item Sujata Doshi, {\it Memory Bound Puzzles}, Ph.D. qualifier, 2006
+
+%\item Lucas Ballard, {\it Revisiting Biometric Authentication},
+% Ph.D. qualifier, 2006
+
+%\item Samuel Small, {\it Scalable VPNs for the Global Information
+% Grid}, Ph.D. qualifier, 2005
+
+%\item Mathew Green, {\it Correlation-resistant Storage},
+% Ph.D. qualifier, 2005
+
+%\item Moheeb Rajab, {\it On the Effectiveness of Distributed
+% Telescopes}, Ph.D. qualifier, 2004
+
+%\item Seny Kamara, {\it Secure Conjunctive Keyword Search},
+% Ph.D. qualifier, 2004
+
+%\item Charles Wright, {\it Traffic Characterization using Profile
+% HMMs}, Ph.D. qualifier, 2004
+
+%\end{itemize}
+
+%%\eject
+%\headingsgap
+%\alignboth{Supervised Masters Projects (JHU)}{}
+%\begin{itemize}
+
+%\item Xuesong Chen, MSSI, {\it Performance Analysis of Password-based
+% Public-key Cryptographic Protocols}, 2008
+
+%\item Dan Hopkins, MSe, {\it Designing a Web-based System for
+% Visualization of Network Traffic }, 2008
+
+%\item Kevin Thompson, MSe, {\it On Alternative Implementaions of
+% Interactive Television}, 2008
+
+%\item Kevin Snow, MSe, {\it A Framework for Realtime Encrypted Traffic
+% Classification}, 2007
+
+%\item Daniel Chou, MSSI, {\it Permutable Audio Watermarks}, 2006
+
+%\item Kenneth Berends, MSSI, {\it Implementing a Network Tomography
+% Exercise}, 2005
+
+%\item Andrew Gibbs, MSSI, {\it Reconciling Anonymity and
+% Accountability}, 2004
+
+%\item Lucas Ballard, MSSI, {\it Statistical Attacks on Encrypted
+% Data}, 2004
+%\end{itemize}
+
+% \headingsgap
+% \alignboth{References}{}
+% \begin{list}{}{}
+
+% \item {\it Farnam Jahanian}, Professor and Interim Chair, Computer
+% Science and Engineering department, University of Michigan, Ann
+% Arbor. Email: farnam@umich.edu
+
+% \item {\it Michael K. Reiter}, Lawrence M. Slifkin Distinguished
+% Professor, Computer Science department, University of North
+% Carolina, Chapel Hill. Email: reiter@cs.unc.edu
+
+% \item {\it Paul C. Van Oorschot}, Professor of Computer Science and
+% Research Chair, School of Computer Science, Carleton University,
+% Ontario. Email: paulv@scs.carleton.ca
+
+% \item {\it Salvatore J. Stolfo}, Professor, Department of Computer
+% Science, Columbia University, New York. Email: sal@cs.columbia.edu
+
+% \item {\it Virgil D. Gligor}, Professor, Department of Electrical and
+% Computer Engineering, \\ University of Maryland, College
+% Park. Email: gligor@eng.umd.edu
+
+% \end{itemize}
+
+%\headingsgap
+
+
+%\headingsgap
+
+\ignore{
+\alignboth{Expert \\ Testimony}{}
+\begin{cvhanglist}
+\item Apple Inc. v. VirnetX Inc., Case IPR2014-00237/238,
+Patent 8,504,697, Expert Testimony at Deposition, October, 2014, Washington D.C.
+
+\item Apple Inc. v. VirnetXInc., Case IPR2014-00403/404,
+Patent 7,987,274 B2, Expert Testimony at Deposition, February, 2015, Washington D.C.
+
+\item Apple Inc. v. VirnetX Inc., Case IPR2015-00871, IPR2014-00482/483
+Patent 7,987,274 Expert Testimony at Deposition, March, 2015, Washington D.C.
+
+\item Apple Inc. v. VirnetX Inc., Case IPR2015-01009,
+Patent 8,843,643, Expert Testimony at Deposition, April, 2015, Washington D.C.
+
+\item Apple Inc. v. VirnetX Inc., Case IPR2016-00331/332,
+Patent 8,504,696 B2 Expert Testimony at Deposition, December, 2015, Washington D.C.
+
+\item Apple Inc. v. VirnetX Inc., Case IPR2016-01585,
+Patent 8,904,516 Expert Testimony at Deposition, August, 2016, Washington D.C.
+
+\item Apple Inc. v. VirnetX Inc., Case IPR2015-1046,
+Patent 6,502,135 Expert Testimony at Deposition, September, 2016, Washington D.C.
+
+\item Apple Inc. v. VirnetX Inc., Case IPR2017-00337,
+Patent 9,038,163 Expert Testimony at Deposition, November, 2016, Washington D.C.
+
+\item Google Inc. v. Uniloc 2017 LLC., Patent 8,949,954, Declaration, January, 2020, Washington D.C.
+
+\end{cvhanglist}
+}
+
+\end{document} 
